@@ -1,0 +1,28 @@
+//styles for the default layout
+
+body {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header { 
+  h1 {
+    font-size: 2.5em;
+    a {
+      text-decoration: none;
+      &:visited { color: @link-color; }
+    }
+  }
+}
+
+footer {
+  .make-row();
+  div {
+    .make-column(4);
+    @media (min-width: @grid-float-breakpoint) {
+      &:nth-child(2) { text-align: center; }
+      &:nth-child(3) { text-align: right; }
+    }
+    a { text-decoration: none; }
+  }
+}

@@ -9,7 +9,10 @@
 // colors
 @orange: #F27E30;
 @blue: #167DA6;
+@dark-gray: darken(#fff, 70%);
+
 @primary-brand: @orange;
+
 
 
 // typography
@@ -24,6 +27,9 @@
 @font-size-small:         @font-size-base * 0.85; // ~12px
 @font-size-mini:          @font-size-base * 0.75; // ~11px
 
+@link-color:       @dark-gray;
+@link-color-hover: lighten(@link-color, 15%);
+
 // globals
 .icon {
   width:15px;
@@ -33,26 +39,8 @@ ul {
   list-style-type: none;
 }
 
-body {
-  margin: 0 auto;
-  padding: 20px;
-}
+a { color: @link-color; }
+a:visited { color: @link-color-hover; }
 
-header { 
-  h1 {
-    font-size: 2.5em;
-  }
-}
-
-footer {
-  .make-row();
-  div {
-    .make-column(4);
-    @media (min-width: @grid-float-breakpoint) {
-      &:nth-child(2) { text-align: center; }
-      &:nth-child(3) { text-align: right; }
-    }
-  }
-}
-
+@import "default";
 @import "homepage";
