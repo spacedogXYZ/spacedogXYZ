@@ -1,0 +1,13 @@
+- name: Josh Levinger
+  title: Commander
+  image: img/josh.jpg
+  bio: Briding the worlds of engineering and advocacy, Josh has ten years of experience building technology for social change.
+
+- name: Whiskey Tango Foxtrot
+  title: Cadet
+  image: img/whiskey.jpg
+  bio: Our newest member, Whiskey is still learning his way around the ship.
+
+- name: Laika
+  title: SpaceDog emeritus
+  bio: The original spacedog, Laika exemplified our credo of loyalty, fearlessness, and creativity.

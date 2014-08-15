@@ -1,0 +1,5 @@
+title: SpaceDog
+
+collections: 
+  testimonials:
+    output: false

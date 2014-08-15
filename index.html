@@ -1,0 +1,81 @@
+---
+title: Blastoff with Us!
+layout: default
+---
+
+<section id="splash">
+  <img src="">
+  <div id="tagline">a multidimensional digital agency for organizations on a mission</div>
+</section>
+
+<section id="how-we-work">
+<h2>How We Work</h2>
+<ul>
+  <li><h3>Commitments</h3>
+      <ul>
+          <li>social justice</li>
+          <li>appropriate technology</li>
+          <li>open source, data, content</li>
+      </ul>
+  </li>
+  <li><h3>Contexts</h3>
+      <ul>
+          <li>online organizing</li>
+          <li>democratic engagement</li>
+          <li>counter programming</li>
+      </ul>
+  </li>
+  <li><h3>Software Development</h3>
+      <ul>
+          <li>technology strategy</li>
+          <li>product design</li>
+          <li>architecture &amp; code</li>
+      </ul>
+  </li>
+</ul>
+</section>
+
+<section id="values">
+<h2>Why Spacedog?</h2>
+<ul>
+  <li>We have a strong sense of adventure</li>
+  <li>We will be fiercely loyal to your project and goals</li>
+  <li>We can take you to the stars</li>
+</ul>
+</section>
+
+<section id="testimonials">
+<h2>Who Likes Our Work</h2>
+<ul>
+  {% for t in site.data.testimonials %}
+  <li><div>
+      <span class="quote">&ldquo;{{t.quote}}&rdquo;</span>
+        {% if t.more%}<span class="more">{{t.more}}</span>{%endif%}</div>
+    <div class="name">{{t.name}}, {{t.title}}</div></li>
+  {% endfor %}
+</ul>
+</section>
+
+<section id="team">
+<h2>What Have we Accomplished?</h2>
+<ul>
+  {% for a in site.data.accomplishments %}
+  <li>{{a.title}}: {% if a.client %}{{a.client}}{% else %}{{a.role}}{%endif%}, {{a.date}}
+      <div class="stat">{{a.stat}}</div>
+  </li>
+  {% endfor %}
+</ul>
+</section>
+
+<section id="team">
+<h2>Who is Spacedog?</h2>
+<ul>
+  {% for m in site.data.team %}
+  <li class="{% cycle 'left','right' %}">{% comment %} <img src="{{m.image|default:'img/blank.png'}}" alt="{{m.name}}, {{m.title}}" /> {%endcomment%}
+      {{m.name}}, {{m.title}}
+      <div class="bio">{{m.bio}}</div>
+  </li>
+  {% endfor %}
+</ul>
+</section>
+

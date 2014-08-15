@@ -1,0 +1,58 @@
+@import "normalize";
+@import "preboot";
+
+// grid
+@grid-columns:          12;
+@grid-column-padding:   15px;
+@grid-float-breakpoint: 768px;
+
+// colors
+@orange: #F27E30;
+@blue: #167DA6;
+@primary-brand: @orange;
+
+
+// typography
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-sans-serif;
+
+@font-size-base:          14px;
+@font-size-large:         @font-size-base * 1.25; // ~18px
+@font-size-medium:        @font-size-base * 1.15; // ~16px
+@font-size-small:         @font-size-base * 0.85; // ~12px
+@font-size-mini:          @font-size-base * 0.75; // ~11px
+
+// globals
+.icon {
+  width:15px;
+} 
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header { 
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+footer {
+  .make-row();
+  div {
+    .make-column(4);
+    @media (min-width: @grid-float-breakpoint) {
+      &:nth-child(2) { text-align: center; }
+      &:nth-child(3) { text-align: right; }
+    }
+  }
+}
+
+@import "homepage";
