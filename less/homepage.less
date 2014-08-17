@@ -111,17 +111,40 @@ section#testimonials {
 section#accomplishments {
   ul {
     li {
+      .clearfix();
       margin-bottom: 10px;
+      width: 75%;
     }
+    .description { float: left; }
     .stat {
       margin-left: 20px;
+      width: 50%;
       em { font-weight: bold; font-style: normal; }
+    }
+    .logo {
+      float: right; 
+      img { float: left; }
     }
   }
 }
 
 section#team {
   ul { 
-    li { }
+    width: 80%;
+    margin-left: 20px;
+
+    li {
+      .clearfix();
+      margin-bottom: 20px;
+
+      img { float: left; }
+      .about { 
+        float: left;
+
+        width: 60%;
+        margin: 20px;
+      }
+      .name { font-weight: bold; }
+    }
   }
 }

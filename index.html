@@ -81,8 +81,12 @@ end_script: <script src='/js/spacedog.js'></script>
 <h2>What Have we Accomplished?</h2>
 <ul>
   {% for a in site.data.accomplishments %}
-  <li>{{a.title}}: {% if a.client %}{{a.client}}{% else %}{{a.role}}{%endif%}, {{a.date}}
+  <li><div>
+    <div class="description">
+      <div class="name">{{a.title}}: {% if a.client %}{{a.client}}{% else %}{{a.role}}{%endif%}, {{a.date}}</div>
       <div class="stat">{{a.stat}}</div>
+    </div>
+    <div class="logo"><img src="{{a.logo}}" alt="{{a.client}}"/></div>
   </li>
   {% endfor %}
 </ul>
@@ -92,10 +96,12 @@ end_script: <script src='/js/spacedog.js'></script>
 <h2>Who is Spacedog?</h2>
 <ul>
   {% for m in site.data.team %}
-  <li class="{% cycle 'left','right' %}">
+  <li>
     <img src="{{m.image|default:'/static/images/blank.png'}}" alt="{{m.name}}, {{m.title}}" />
-      {{m.name}}, {{m.title}}
+    <div class="about">
+      <span class="name">{{m.name}}</span>, <span class="title">{{m.title}}</span>
       <div class="bio">{{m.bio}}</div>
+    </div>
   </li>
   {% endfor %}
 </ul>
