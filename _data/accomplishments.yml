@@ -1,17 +1,17 @@
-- title: LibyaVotes
+- title: <a href="http://data.libyavotes.ly">LibyaVotes</a>
   client: Reboot.org
   date: winter 2014
-  stat: 1.5m voters registered with mobile phones in a new democracy, on the ground for 3 months
+  stat: <em>1.5 million voters</em> registered with mobile phones in a new democracy, on the ground for 3 months
 
-- title: register2.rockthevote.org
+- title: <a href="https://register2.rockthevote.com">register2.rockTheVote.com</a>
   client: RockTheVote
   date: 2012
-  stat: 600k voters registered online with a new form, redesigned for usability and minimized impedance
-
-- title: Citizen Engagement Lab
+  stat: <em>600 thousand voters</em> registered online with a new form, redesigned for usability and quick completion
+  
+- title: <a href="http://engagementlab.org">Citizen Engagement Lab</a>
   role: Director of Technology and Lead Developer
   date: 2010-2013
-  stat: launched twenty websites in three years for clients with a combined membership of over 3 million activists
+  stat: launched <em>twenty websites in three years</em> for clients with a combined membership of over <em>3 million</em> activists
 
 - title: MIT Media Lab
   role: Graduate student

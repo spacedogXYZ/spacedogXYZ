@@ -1,17 +1,21 @@
 - name: Paul Ferris
-  title: Campaign Director, SumOfUs.org
+  title: Campaign Director
+  org: SumOfUs.org
   quote: Super easy to work with
-  more: Josh jumped in to help out in a pinch and stuck with us. His clear communication and straightforward approach made him a valuable addition to our team.
+  more: Clear communication and straightforward approach made a valuable addition to our team in a pinch
 
 - name: Nita Chaudhary
-  title: Co-Executive Director, Ultraviolet.org
+  title: Co-Executive Director
+  org: Ultraviolet.org
   quote: An incredible ally
-  more: I will never forget when he moved up our site launch by <em>months</em> so we could get to work.
+  more: I will never forget when he moved up our site launch by <em>months</em> so we could get to work
 
 - name: Brad Johnson
-  title: Campaign Manager, ForecastTheFacts.org
+  title: Campaign Manager
+  org: ForecastTheFacts.org
   quote: A brilliant coder, a sweet guy, and an inspiring activist
 
 - name: Panthea Lee
-  title: Principal, Reboot.org
-  quote: Thanks for working with us, it's been really wonderful to have you here in Libya!
+  title: Principal
+  org: Reboot.org
+  more: Thanks for working with us, it's been really wonderful to have you here in Libya!
