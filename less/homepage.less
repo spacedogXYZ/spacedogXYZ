@@ -1,4 +1,15 @@
+section{ 
+  margin-top: 500px;
+  h2 {
+    font-family: @font-family-header;
+    font-size: @font-size-x-large;
+  }
+  color: white;
+}
+
 section#splash {
+  margin:0;
+
   .overlay { 
     position: relative;
   }
@@ -39,6 +50,8 @@ section#splash {
       font-size: 4em;
     }
     .tagline {
+      font-family: @font-family-header;
+      font-size: @font-size-large;
       margin-left: 20%;
     }
   }
@@ -46,9 +59,11 @@ section#splash {
 }
 
 section#how-we-work {
+  margin-top: 150px;
+
   &>ul {
     .make-row();
-    margin: 0;
+    margin: 50px 0 0 0;
     padding: 0;
 
     &> li {
@@ -56,14 +71,20 @@ section#how-we-work {
       div {
         padding: 20px;
         background: @light-gray;
-        .box-shadow(5px 5px @dark-gray);
+        .box-shadow(5px 5px @gray);
+        color: @black;
         margin-bottom: 20px;
+        height: 250px;
       }
 
-      h3 { margin: 0; }
+      h3 {
+        margin: 0;
+        font-size: @font-size-large;
+        text-align: center;
+      }
 
       ul {
-        margin: 0;
+        margin: 20px 0 0 0;
         padding:10px 20px;
 
         li {
@@ -84,8 +105,9 @@ section#testimonials {
 
       div {
         padding: 20px;
+        color: @black;
         background: @light-gray;
-       .box-shadow(5px 5px @dark-gray);
+       .box-shadow(5px 5px @gray);
         margin-bottom: 20px;
       }
 

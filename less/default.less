@@ -2,6 +2,8 @@
 
 body {
   margin: 0 auto;
+  background: #3A393A;
+  color: @white;
 }
 
 .wrapper, header, footer {
@@ -16,7 +18,8 @@ header {
     font-family: @font-family-logo;
     a {
       text-decoration: none;
-      &:visited { color: @link-color; }
+      color: @white;
+      &:visited { color: @white; }
     }
   }
 }
@@ -25,8 +28,16 @@ header {
   font-family: @font-family-logo;
 }
 
+
 footer {
+  .clearfix();
   .make-row();
+  color: @white;
+  a {
+    color: @white;
+    &:visited { color: @white; }
+    &:hover { color: @link-color; }
+  }
   div {
     .make-column(4);
     @media (min-width: @grid-float-breakpoint) {
