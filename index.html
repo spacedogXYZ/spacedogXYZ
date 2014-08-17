@@ -1,39 +1,25 @@
 ---
-title: Blastoff with Us!
 layout: default
+header: ''
+end_script: <script src='/js/spacedog.js'></script>
 ---
 
 <section id="splash">
-  <img src="">
-  <div id="tagline">a multi-dimensional digital agency for organizations on a mission</div>
+  <span id="stars" class="fullwidth" role="img" aria-label="stars">
+    <span class="fullwidth-inner"></span>
+  </span>
+  <div class="overlay">
+    <span id="console" class="fullwidth" role="img" aria-label="spaceship console">
+      <span class="fullwidth-inner"></span>
+    </span>
+  </div>
+  <div class="overlay text">
+      <h1 class="logo">Spacedog</h1>
+      <div class="tagline">a multi-dimensional digital agency for organizations on a mission</div>
+    </div>
 </section>
 
-<section id="how-we-work">
-<h2>How We Work</h2>
-<ul>
-  <li><h3>Commitments</h3>
-      <ul>
-          <li>social justice</li>
-          <li>appropriate technology</li>
-          <li>open source, data, content</li>
-      </ul>
-  </li>
-  <li><h3>Contexts</h3>
-      <ul>
-          <li>online organizing</li>
-          <li>democratic engagement</li>
-          <li>counter programming</li>
-      </ul>
-  </li>
-  <li><h3>Software Development</h3>
-      <ul>
-          <li>technology strategy</li>
-          <li>product design</li>
-          <li>architecture &amp; code</li>
-      </ul>
-  </li>
-</ul>
-</section>
+<div class="wrapper">
 
 <section id="values">
 <h2>Why Spacedog?</h2>
@@ -44,19 +30,54 @@ layout: default
 </ul>
 </section>
 
+<section id="how-we-work">
+<h2>How We Work</h2>
+<ul>
+  <li><div>
+    <h3>Commitments</h3>
+      <ul>
+          <li>social justice</li>
+          <li>appropriate technology</li>
+          <li>open source, data, content</li>
+      </ul></div>
+  </li>
+  <li><div>
+    <h3>Contexts</h3>
+      <ul>
+          <li>online organizing</li>
+          <li>democratic engagement</li>
+          <li>counter programming</li>
+      </ul></div>
+  </li>
+  <li><div>
+    <h3>Software Development</h3>
+      <ul>
+          <li>technology strategy</li>
+          <li>product design</li>
+          <li>architecture &amp; code</li>
+      </ul></div>
+  </li>
+</ul>
+</section>
+
 <section id="testimonials">
 <h2>Who Likes Our Work</h2>
 <ul>
   {% for t in site.data.testimonials %}
   <li><div>
-      <span class="quote">&ldquo;{{t.quote}}&rdquo;</span>
-        {% if t.more%}<span class="more">{{t.more}}</span>{%endif%}</div>
-    <div class="name">{{t.name}}, {{t.title}}</div></li>
+      {% if t.quote%}<span class="quote">&ldquo;{{t.quote}}&rdquo;</span>{%endif%}
+      {% if t.more%}<span class="more">{{t.more}}</span>{%endif%}
+      <span class="person">
+        <span class="name text">{{t.name}}</span>
+        <span class="title text">{{t.title}}</span>
+        <span class="org text">{{t.org}}</span>
+      </span>
+  </div></li>
   {% endfor %}
 </ul>
 </section>
 
-<section id="team">
+<section id="accomplishments">
 <h2>What Have we Accomplished?</h2>
 <ul>
   {% for a in site.data.accomplishments %}
@@ -71,11 +92,12 @@ layout: default
 <h2>Who is Spacedog?</h2>
 <ul>
   {% for m in site.data.team %}
-  <li class="{% cycle 'left','right' %}">{% comment %} <img src="{{m.image|default:'img/blank.png'}}" alt="{{m.name}}, {{m.title}}" /> {%endcomment%}
+  <li class="{% cycle 'left','right' %}">
+    <img src="{{m.image|default:'/static/images/blank.png'}}" alt="{{m.name}}, {{m.title}}" />
       {{m.name}}, {{m.title}}
       <div class="bio">{{m.bio}}</div>
   </li>
   {% endfor %}
 </ul>
 </section>
-
+</div>

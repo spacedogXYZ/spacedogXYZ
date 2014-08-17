@@ -2,25 +2,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0, maximum-scale=1">
+    <meta name="viewport" content="width=device-width">
     <link href="/favicon.png" rel="shortcut icon" type="image/x-icon">
     
-    <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>Spacedog - {{page.title}}</title>
+    <title>Spacedog{%if page.title%} - {{page.title}}{%else%}.xyz{%endif%}</title>
   </head>
 
   <body>
-    <header><h1><a href="/">Spacedog</a></h1></header>
+    {% if page.header %}{{page.header}}{%else%}<header><h1 id="logo"><a href="/">Spacedog</a></h1></header>{% endif %}
 
     {{ content }}
 
     <footer>
       <div class="copy">&copy; 2014 Spacedog</div>
-      <div class="built">Built with <img src="/img/icons/fist.png" alt="power" class="icon"> in Oakland</div>
+      <div class="built">Built with <img src="/static/icons/fist.png" alt="power" class="icon"> in Oakland</div>
       <div class="source"><a href="/about">&pi;</a></div>
     </footer>
 
+      <script src='/js/jquip.min.js'></script>
+      {% if page.end_script %}{{page.end_script}}{% endif %}
   </body>
 </html>
