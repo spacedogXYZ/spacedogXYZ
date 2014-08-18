@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <title>Spacedog{%if page.title%} - {{page.title}}{%else%}.xyz{%endif%}</title>
+    {% if page.top_script%}{{page.top_script}}{%endif%}
   </head>
 
   <body>
@@ -21,7 +22,7 @@
       <div class="source"><a href="/about">&pi;</a></div>
     </footer>
 
-      <script src='/js/jquip.min.js'></script>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       {% if page.end_script %}{{page.end_script}}{% endif %}
   </body>
 </html>
