@@ -1,9 +1,3 @@
-- name: Paul Ferris
-  title: Campaign Director
-  org: SumOfUs.org
-  quote: Super easy to work with
-  more: Clear communication and straightforward approach made a valuable addition to our team in a pinch
-
 - name: Nita Chaudhary
   title: Co-Executive Director
   org: Ultraviolet.org
@@ -13,7 +7,13 @@
 - name: Brad Johnson
   title: Campaign Manager
   org: ForecastTheFacts.org
-  quote: A brilliant coder, a sweet guy, and an inspiring activist
+  quote: Brilliant coder, a sweet guy, and an inspiring activist
+
+- name: Paul Ferris
+  title: Campaign Director
+  org: SumOfUs.org
+  quote: Super easy to work with
+  more: Clear communication and straightforward approach made a valuable addition to our team in a pinch
 
 - name: Panthea Lee
   title: Principal
