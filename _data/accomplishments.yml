@@ -2,22 +2,22 @@
   client: Reboot.org
   date: winter 2014
   stat: <em>1.5 million voters</em> registered with mobile phones in a new democracy, on the ground for 3 months
-  logo: /static/logos/libyavotes.jpg
+  logo: /static/clients/libyavotes.jpg
 
 - title: <a href="https://register2.rockthevote.com">register2.rockthevote.com</a>
   client: RockTheVote
   date: 2012
   stat: <em>600 thousand voters</em> registered online with a new form, redesigned for usability and quick completion
-  logo: /static/logos/rockthevote.png
+  logo: /static/clients/rockthevote.png
 
 - title: <a href="http://engagementlab.org">Citizen Engagement Lab</a>
   role: Director of Technology and Lead Developer
   date: 2010-2013
   stat: launched <em>twenty websites in three years</em> for clients with a combined membership of over <em>3 million</em> activists
-  logo: /static/logos/cel.png
+  logo: /static/clients/cel.png
 
 - title: <a href="http://web.mit.edu">MIT</a> <a href="http://media.mit.edu">Media Lab</a>
   role: Graduate student
   date: 2009-2010
   stat: built counter-surviellance UAVs, websites for collective economic action, and mapped historical injustices
-  logo: /static/logos/mit.gif
+  logo: /static/clients/medialab.png

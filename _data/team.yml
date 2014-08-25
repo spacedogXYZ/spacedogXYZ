@@ -1,14 +1,14 @@
 - name: Josh
   title: Commander
-  image: /static/images/josh.png
+  image: /static/icons/josh.png
   bio: Bridging the worlds of engineering and advocacy, Josh has ten years of experience building technology for social change.
 
 - name: Whiskey
   title: Cadet
-  image: /static/images/whiskey.png
+  image: /static/icons/whiskey.png
   bio: Our newest member, Whiskey is still learning his way around the ship.
 
 - name: Laika
   title: SpaceDog emeritus
-  image: /static/images/laika.png
+  image: /static/icons/laika.png
   bio: The original spacedog, Laika exemplified our credo of loyalty, fearlessness, and creativity.
