@@ -13,11 +13,14 @@ top_script: |
   </map>
 end_script: |
   <script src='/js/jquery.rwdImageMaps.js'></script>
+  <!--<script src='/js/jquery.waypoints.js'></script>
+  <script src='/js/jquery.disableScroll.js'></script>
+  <script src='/js/jquery.scrollTo.js'></script>-->
   <script src='/js/spacedog.js'></script>
 
 ---
 
-<section id="splash">
+<section id="splash" class="fullwidth">
   <span id="stars" class="fullwidth" role="img" aria-label="stars">
     <span class="fullwidth-inner"></span>
   </span>
@@ -27,7 +30,7 @@ end_script: |
     </span>
   </div>
   <div class="overlay">
-    <img src="/static/splash/transparent.png" usemap="consoleMap" id="rollover" />
+    <img src="/static/splash/transparent.png" data-orig-width='1400' data-orig-height='900' usemap="consoleMap" id="rollover" />
   </div>
   <div class="overlay text">
       <h1 class="logo">Spacedog</h1>
@@ -35,13 +38,13 @@ end_script: |
     </div>
 </section>
 
-<div class="wrapper">
-
-<section id="how-we-work">
+<section id="how-we-work" class="fullwidth">
 <h2>How We Work</h2>
-<ul>
+<h3>We are social-justice minded technologists who build technology to address real-world problems.</h3>
+<ul class="wrapper">
   <li><div>
     <h3>Commitments</h3>
+      <p>We are dedicated to the precepts of openness, and prefer technology that reflects our values.</p>
       <ul>
           <li>social justice</li>
           <li>appropriate technology</li>
@@ -50,16 +53,18 @@ end_script: |
   </li>
   <li><div>
     <h3>Contexts</h3>
+      <p>Across a spectrum of issues, we are always sensitive to individual needs.</p>
       <ul>
           <li>online organizing</li>
           <li>democratic engagement</li>
-          <li>counter programming</li>
+          <li>international development</li>
       </ul></div>
   </li>
   <li><div>
-    <h3>Software Development</h3>
+    <h3>Technology</h3>
+      <p>We code in service of your mission, and craft your custom solution.</p>
       <ul>
-          <li>technology strategy</li>
+          <li>strategic develoment</li>
           <li>product design</li>
           <li>architecture &amp; code</li>
       </ul></div>
@@ -67,12 +72,12 @@ end_script: |
 </ul>
 </section>
 
-<section id="testimonials">
+<section id="testimonials" class="fullwidth">
 <h2>Who Likes Our Work</h2>
-<ul>
+<ul class="wrapper">
   {% for t in site.data.testimonials %}
-  <li><div>
-      {% if t.quote%}<span class="quote">&ldquo;{{t.quote}}&rdquo;</span>{%endif%}
+  <li class="{% cycle 'left','right' %}"><div>
+      {% if t.quote%}<span class="quote">{{t.quote}}</span>{%endif%}
       {% if t.more%}<span class="more">{{t.more}}</span>{%endif%}
       <span class="person">
         <span class="name text">{{t.name}}</span>
@@ -84,9 +89,9 @@ end_script: |
 </ul>
 </section>
 
-<section id="accomplishments">
+<section id="accomplishments" class="fullwidth">
 <h2>What Have we Accomplished?</h2>
-<ul>
+<ul class="wrapper">
   {% for a in site.data.accomplishments %}
   <li><div>
     <div class="description">
@@ -99,9 +104,9 @@ end_script: |
 </ul>
 </section>
 
-<section id="team">
+<section id="team" class="fullwidth">
 <h2>Who is Spacedog?</h2>
-<ul>
+<ul class="wrapper">
   {% for m in site.data.team %}
   <li>
     <img src="{{m.image|default:'/static/images/blank.png'}}" alt="{{m.name}}, {{m.title}}" />
@@ -113,4 +118,3 @@ end_script: |
   {% endfor %}
 </ul>
 </section>
-</div>

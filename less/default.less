@@ -1,12 +1,17 @@
-//styles for the default layout
+/***************************/
+/* Spacedog default layout */
+/***************************/
 
 body {
+  width: 100%;
   margin: 0 auto;
   background: #3A393A;
   color: @white;
+  overflow-y: scroll;
+  font-family: @font-family-base;
 }
 
-.wrapper, header, footer {
+.wrapper {
   padding: 20px;
 }
 
@@ -30,20 +35,23 @@ header {
 
 
 footer {
+  width: 100%;
   .clearfix();
-  .make-row();
   color: @white;
   a {
     color: @white;
     &:visited { color: @white; }
     &:hover { color: @link-color; }
   }
-  div {
-    .make-column(4);
-    @media (min-width: @grid-float-breakpoint) {
-      &:nth-child(2) { text-align: center; }
-      &:nth-child(3) { text-align: right; }
+  .wrapper {
+    .make-row();
+    div {
+      .make-column(4);
+      @media (min-width: @grid-float-breakpoint) {
+        &:nth-child(2) { text-align: center; }
+        &:nth-child(3) { text-align: right; }
+      }
+      a { text-decoration: none; }
     }
-    a { text-decoration: none; }
   }
 }

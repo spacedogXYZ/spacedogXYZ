@@ -25,10 +25,10 @@
 				
 				// Since WebKit doesn't know the height until after the image has loaded, perform everything in an onload copy
 				$('<img />').load(function() {
-					var attrW = 'width',
-						attrH = 'height',
-						w = $that.attr(attrW),
-						h = $that.attr(attrH);
+					var attrW = 'orig-width',
+						attrH = 'orig-height',
+						w = $that.data(attrW),
+						h = $that.data(attrH);
 					
 					if (!w || !h) {
 						var temp = new Image();
@@ -38,10 +38,6 @@
 						if (!h)
 							{ h = temp.height; }
 					}
-
-					// jlev, hardcode orig h,w here bc overlay image is already being responsively resized
-					w = 1400;
-					h = 900;
 					
 					var wPercent = $that.width()/100,
 						hPercent = $that.height()/100,
