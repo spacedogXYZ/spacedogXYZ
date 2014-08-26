@@ -1,6 +1,23 @@
 ---
 layout: default
-header: ''
+header: |
+  <section id="splash" class="fullwidth">
+    <span id="stars" class="fullwidth" role="img" aria-label="stars">
+      <span class="fullwidth-inner"></span>
+    </span>
+    <div class="overlay">
+      <span id="console" class="fullwidth" role="img" aria-label="spaceship console">
+        <span class="fullwidth-inner"></span>
+      </span>
+    </div>
+    <div class="overlay">
+      <img src="/static/splash/transparent.png" data-orig-width='1400' data-orig-height='900' usemap="consoleMap" id="rollover" />
+    </div>
+    <div class="overlay text">
+        <h1 id="logo">Spacedog</h1>
+        <div class="tagline">a multi-dimensional digital agency for organizations on a mission</div>
+      </div>
+  </section>
 top_script: |
   <map id="consoleMap" name="consoleMap">
   <area shape="poly" alt="buttons-left" title="" coords="82,36,502,34,530,150,204,152" href="" target="" />
@@ -17,26 +34,8 @@ end_script: |
   <script src='/js/jquery.disableScroll.js'></script>
   <script src='/js/jquery.scrollTo.js'></script>-->
   <script src='/js/spacedog.js'></script>
-
+body_class: index
 ---
-
-<section id="splash" class="fullwidth">
-  <span id="stars" class="fullwidth" role="img" aria-label="stars">
-    <span class="fullwidth-inner"></span>
-  </span>
-  <div class="overlay">
-    <span id="console" class="fullwidth" role="img" aria-label="spaceship console">
-      <span class="fullwidth-inner"></span>
-    </span>
-  </div>
-  <div class="overlay">
-    <img src="/static/splash/transparent.png" data-orig-width='1400' data-orig-height='900' usemap="consoleMap" id="rollover" />
-  </div>
-  <div class="overlay text">
-      <h1 class="logo">Spacedog</h1>
-      <div class="tagline">a multi-dimensional digital agency for organizations on a mission</div>
-    </div>
-</section>
 
 <section id="how-we-work" class="fullwidth">
 <h2>How We Work</h2>
