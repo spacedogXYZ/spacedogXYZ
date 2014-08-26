@@ -11,8 +11,8 @@
     {% if page.top_script%}{{page.top_script}}{%endif%}
   </head>
 
-  <body>
-    {% if page.header %}{{page.header}}{%else%}<header><h1 id="logo"><a href="/">Spacedog</a></h1></header>{% endif %}
+  <body {%if page.body_class%}class="{{page.body_class}}"{%endif%}>
+    {% if page.header %}{{page.header}}{%else%}<header><h1 id="logo"><a href="/">Space<img src="/static/icons/spacedog.png" alt="d" class="icon"/>og</a></h1></header>{% endif %}
 
     {{ content }}
 

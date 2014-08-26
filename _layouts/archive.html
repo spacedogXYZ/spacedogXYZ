@@ -1,0 +1,20 @@
+---
+layout: default
+title: Blog
+body_class: archive
+---
+<div class="wrapper">
+  <ul>
+  {% for post in site.posts %}
+    <li>
+            <span class="date">{{ post.date | date_to_long_string }}</span> 
+            <h3>{{ post.title }}</h3> 
+            <div class="content">{{post.description}}</div>
+
+            <div class="meta">
+                <a href="{{post.url}}">read more &rarr;</a>
+            </div>
+        </li>
+  {% endfor %}
+  </ul>
+</div>

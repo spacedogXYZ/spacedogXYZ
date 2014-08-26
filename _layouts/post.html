@@ -1,0 +1,43 @@
+---
+layout: default
+body_class: post
+---
+<div class="wrapper">
+  <h2>{{ page.title }}</h2>
+  
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <h4 class="meta">
+    Posted on {{ page.date | date_to_long_string }}
+    {% if page.category %} in <a href="/categories/{{ page.category | slugize }}">{{ page.category }}</a> {% endif %}
+
+    <span class="tag-list">
+      {% for tag in page.tags %}
+      <a href="/tags/{{ tag| slugize }}">{{ tag }}</a>
+      {% endfor %}
+    </span>
+  </h4>
+
+  <div class="next-prev-nav low-top">
+    {% if page.next.url %}
+      &laquo;&nbsp;<a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">{{ page.next.title }}</a>
+    {% endif %}
+  
+    {% if page.next.url %}
+      {% if page.previous.url %}
+        |
+      {% endif %}
+    {% endif %}
+    
+  
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title }}</a>&nbsp;&raquo;
+    {% endif %}
+  
+    <br />
+  </div>
+
+  <hr />
+</div>
