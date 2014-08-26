@@ -1,10 +1,12 @@
 - name: Josh
   title: Commander
+  twitter: jlev
   image: /static/icons/josh.png
   bio: Bridging the worlds of engineering and advocacy, Josh has ten years of experience building technology for social change.
 
 - name: Whiskey
   title: Cadet
+  twitter: spacedogXYZ
   image: /static/icons/whiskey.png
   bio: Our newest member, Whiskey is still learning his way around the ship.
 
