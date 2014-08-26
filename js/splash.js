@@ -2,7 +2,7 @@ function resetOverlay() {
   var fullHeight = $('#splash #stars').height();
   var fullWidth = $('#splash #stars').width();
   $('#splash .overlay').each(function(index) {
-    $(this).css({top: -1*(index+1)*fullHeight});
+    $(this).css({top: -1*(index+1)*fullHeight+5});
   });
   $('#rollover').attr({height: fullHeight, width: fullWidth});
 
