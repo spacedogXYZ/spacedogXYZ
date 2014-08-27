@@ -52,11 +52,10 @@ audio:not([controls]) {
 html {
   font-family: sans-serif;
   /* 1 */
-
   -webkit-text-size-adjust: 100%;
+  /* 2 */
   -ms-text-size-adjust: 100%;
   /* 2 */
-
 }
 /**
  * Remove default margin.
@@ -211,10 +210,8 @@ fieldset {
 legend {
   border: 0;
   /* 1 */
-
   padding: 0;
   /* 2 */
-
 }
 /**
  * 1. Correct font family not being inherited in all browsers.
@@ -227,13 +224,10 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
-
   font-size: 100%;
   /* 2 */
-
   margin: 0;
   /* 3 */
-
 }
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
@@ -266,10 +260,8 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
-
   cursor: pointer;
   /* 3 */
-
 }
 /**
  * Re-set default cursor for disabled elements.
@@ -286,10 +278,8 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
-
   padding: 0;
   /* 2 */
-
 }
 /**
  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
@@ -299,11 +289,9 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-
   box-sizing: content-box;
 }
 /**
@@ -329,10 +317,8 @@ input::-moz-focus-inner {
 textarea {
   overflow: auto;
   /* 1 */
-
   vertical-align: top;
   /* 2 */
-
 }
 /* ==========================================================================
    Tables
@@ -375,7 +361,7 @@ table {
 @media (min-width: 768px) {
   .third {
     float: left;
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .two-third {
@@ -389,7 +375,7 @@ table {
 @media (min-width: 768px) {
   .two-third {
     float: left;
-    width: 66.66666666666666%;
+    width: 66.66666667%;
   }
 }
 .full {
@@ -576,7 +562,7 @@ footer .wrapper div {
 @media (min-width: 768px) {
   footer .wrapper div {
     float: left;
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 @media (min-width: 768px) {
@@ -673,7 +659,7 @@ body.index section#how-we-work > ul > li {
 @media (min-width: 768px) {
   body.index section#how-we-work > ul > li {
     float: left;
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 body.index section#how-we-work > ul > li div {
@@ -689,13 +675,20 @@ body.index section#how-we-work > ul > li h3 {
   font-size: 1.5em;
   text-align: center;
 }
+body.index section#how-we-work > ul > li p {
+  margin: 0.5em 0;
+}
 body.index section#how-we-work > ul > li ul {
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
   padding: 10px 20px;
 }
 body.index section#how-we-work > ul > li ul li {
   list-style-type: circle;
   padding: 0;
+}
+body.index section#how-we-work > ul > li img {
+  display: block;
+  margin: 10px auto;
 }
 body.index section#testimonials {
   background-color: #0A3E52;
@@ -802,7 +795,7 @@ body.index section#accomplishments ul .description {
 @media (min-width: 768px) {
   body.index section#accomplishments ul .description {
     float: left;
-    width: 66.66666666666666%;
+    width: 66.66666667%;
   }
 }
 body.index section#accomplishments ul .stat {
@@ -828,7 +821,7 @@ body.index section#accomplishments ul .logo {
 }
 @media (min-width: 768px) {
   body.index section#accomplishments ul .logo {
-    margin-left: 8.333333333333332%;
+    margin-left: 8.33333333%;
   }
 }
 body.index section#accomplishments ul .logo img {
@@ -872,7 +865,6 @@ body.post .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
-
   padding-top: 25px;
   height: 0;
 }
@@ -922,3 +914,4 @@ body.post h4.meta {
     background: #58595B;
   }
 }
+/*# sourceMappingURL=style.css.map */
