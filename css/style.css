@@ -861,6 +861,9 @@ body.index section#team ul li .name {
   font-weight: bold;
   font-size: 1.25em;
 }
+body.index section#team ul li .bio {
+  margin-top: 5px;
+}
 body.post .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;

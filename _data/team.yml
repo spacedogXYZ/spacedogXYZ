@@ -1,4 +1,4 @@
-- name: Josh
+- name: Josh Levinger
   title: Commander
   twitter: jlev
   image: /static/icons/josh.png
@@ -6,7 +6,6 @@
 
 - name: Whiskey
   title: Cadet
-  twitter: spacedogXYZ
   image: /static/icons/whiskey.png
   bio: Our newest member, Whiskey is still learning his way around the ship.
 
