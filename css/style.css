@@ -882,7 +882,7 @@ body.post h4.meta {
   text-align: right;
 }
 @media (max-width: 768px) {
-  body.index section#splash .overlay.text .logo {
+  body.index section#splash .overlay.text #logo {
     font-size: 3em;
   }
   body.index section#splash .overlay.text .tagline {
