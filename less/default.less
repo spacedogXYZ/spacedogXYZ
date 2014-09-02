@@ -5,6 +5,7 @@
 body {
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 20px;
   background: #3A393A;
   color: @white;
   overflow-y: scroll;
@@ -74,7 +75,6 @@ footer {
     &:hover { color: @link-color; }
   }
   .wrapper {
-    .make-row();
     div {
       .make-column(4);
       @media (min-width: @grid-float-breakpoint) {
@@ -82,6 +82,9 @@ footer {
         &:nth-child(3) { text-align: right; }
       }
       a { text-decoration: none; }
+    }
+    div.copy {
+      margin-top:-5px; // pull twitter follow button up
     }
   }
 }

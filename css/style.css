@@ -440,6 +440,7 @@ a:hover {
 body {
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 20px;
   background: #3A393A;
   color: #ffffff;
   overflow-y: scroll;
@@ -537,20 +538,6 @@ footer a:visited {
 footer a:hover {
   color: #f27e30;
 }
-footer .wrapper {
-  margin-left: -15px;
-  margin-right: -15px;
-  *zoom: 1;
-}
-footer .wrapper:before,
-footer .wrapper:after {
-  content: " ";
-  display: table;
-  line-height: 0;
-}
-footer .wrapper:after {
-  clear: both;
-}
 footer .wrapper div {
   min-height: 1px;
   padding-left: 15px;
@@ -575,6 +562,9 @@ footer .wrapper div {
 }
 footer .wrapper div a {
   text-decoration: none;
+}
+footer .wrapper div.copy {
+  margin-top: -5px;
 }
 /****************************/
 /* Spacedog homepage styles */
@@ -909,6 +899,7 @@ body.post h4.meta {
   }
   body.index section#team ul li .about {
     margin: 10px;
+    width: auto;
   }
 }
 @media (max-width: 768px) {
