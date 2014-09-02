@@ -898,6 +898,9 @@ body.post h4.meta {
   text-align: right;
 }
 @media (max-width: 768px) {
+  body.index {
+    overflow-x: hidden;
+  }
   body.index section#splash .overlay.text #logo {
     font-size: 3em;
   }
@@ -905,7 +908,7 @@ body.post h4.meta {
     font-size: 1em;
   }
   body.index section:not(#splash).fullwidth .wrapper {
-    margin: 0 5px;
+    margin: 0;
   }
   body.index section#how-we-work {
     height: auto !important;
@@ -913,7 +916,7 @@ body.post h4.meta {
   }
   body.index section#how-we-work > ul > li ul {
     float: left;
-    width: 55%;
+    width: 40%;
     padding-right: 0px;
   }
   body.index section#how-we-work > ul > li ul img {
@@ -939,6 +942,7 @@ body.post h4.meta {
   }
   body.index section#team ul li .about {
     margin: 10px;
+    width: 50%;
   }
 }
 @media (max-width: 768px) {

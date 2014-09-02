@@ -1,4 +1,5 @@
 body.index { @media (max-width: @grid-float-breakpoint) {
+  overflow-x: hidden;
   section#splash {
     .overlay.text {
       #logo {
@@ -12,7 +13,7 @@ body.index { @media (max-width: @grid-float-breakpoint) {
 
   section:not(#splash).fullwidth {
     .wrapper {
-      margin: 0 5px;
+      margin: 0;
     }
   }
 
@@ -22,7 +23,7 @@ body.index { @media (max-width: @grid-float-breakpoint) {
 
     & > ul > li ul {
       float: left;
-      width: 55%;
+      width: 40%;
       padding-right: 0px;
       img { float: right; }
     }
@@ -50,7 +51,7 @@ body.index { @media (max-width: @grid-float-breakpoint) {
       width: 100%;
       li .about {
         margin: 10px;
-        // width: auto;
+        width: 50%;
       }
     }
   }
