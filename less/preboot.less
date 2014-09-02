@@ -69,9 +69,11 @@
 
 // Grid
 .make-row() {
-  // Negative margin the row out to align the content of columns
-  margin-left: -@grid-column-padding;
-  margin-right: -@grid-column-padding;
+  @media (min-width: @grid-float-breakpoint) {
+    // Negative margin the row out to align the content of columns
+    margin-left: -@grid-column-padding;
+    margin-right: -@grid-column-padding;
+  }
   // Then clear the floated columns
   .clearfix();
 }
@@ -80,12 +82,14 @@
     float: left;
     // Calculate width based on number of columns available
     width: percentage(@columns / @grid-columns);
+
+    // Set inner padding as gutters instead of margin
+    padding-left: @grid-column-padding;
+    padding-right: @grid-column-padding;
   }
   // Prevent columns from collapsing when empty
   min-height: 1px;
-  // Set inner padding as gutters instead of margin
-  padding-left: @grid-column-padding;
-  padding-right: @grid-column-padding;
+  
   // Proper box-model (padding doesn't add to width)
   .box-sizing(border-box);
 }

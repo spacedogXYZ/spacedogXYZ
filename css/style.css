@@ -338,8 +338,6 @@ table {
  */
 .half {
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -348,12 +346,12 @@ table {
   .half {
     float: left;
     width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .third {
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -362,12 +360,12 @@ table {
   .third {
     float: left;
     width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .two-third {
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -376,12 +374,12 @@ table {
   .two-third {
     float: left;
     width: 66.66666667%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .full {
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -390,6 +388,8 @@ table {
   .full {
     float: left;
     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @font-face {
@@ -495,9 +495,13 @@ header h1 a:visited {
 }
 .displayBackground .wrapper {
   padding: 12.5% 6.5%;
-  margin-left: -15px;
-  margin-right: -15px;
   *zoom: 1;
+}
+@media (min-width: 768px) {
+  .displayBackground .wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 }
 .displayBackground .wrapper:before,
 .displayBackground .wrapper:after {
@@ -540,8 +544,6 @@ footer a:hover {
 }
 footer .wrapper div {
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -550,6 +552,8 @@ footer .wrapper div {
   footer .wrapper div {
     float: left;
     width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media (min-width: 768px) {
@@ -624,10 +628,14 @@ body.index section#how-we-work {
   background-image: url('/static/splash/display-orange.png');
 }
 body.index section#how-we-work > ul {
-  margin-left: -15px;
-  margin-right: -15px;
   *zoom: 1;
   margin: 50px 0 0 0;
+}
+@media (min-width: 768px) {
+  body.index section#how-we-work > ul {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 }
 body.index section#how-we-work > ul:before,
 body.index section#how-we-work > ul:after {
@@ -640,8 +648,6 @@ body.index section#how-we-work > ul:after {
 }
 body.index section#how-we-work > ul > li {
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -650,6 +656,8 @@ body.index section#how-we-work > ul > li {
   body.index section#how-we-work > ul > li {
     float: left;
     width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 body.index section#how-we-work > ul > li div {
@@ -659,6 +667,16 @@ body.index section#how-we-work > ul > li div {
   box-shadow: 5px 5px #b55e24;
   color: #333333;
   margin-bottom: 20px;
+  *zoom: 1;
+}
+body.index section#how-we-work > ul > li div:before,
+body.index section#how-we-work > ul > li div:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+body.index section#how-we-work > ul > li div:after {
+  clear: both;
 }
 body.index section#how-we-work > ul > li h3 {
   margin: 0;
@@ -685,9 +703,13 @@ body.index section#testimonials {
   background-image: url('/static/splash/display-blue.png');
 }
 body.index section#testimonials > ul {
-  margin-left: -15px;
-  margin-right: -15px;
   *zoom: 1;
+}
+@media (min-width: 768px) {
+  body.index section#testimonials > ul {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 }
 body.index section#testimonials > ul:before,
 body.index section#testimonials > ul:after {
@@ -700,8 +722,6 @@ body.index section#testimonials > ul:after {
 }
 body.index section#testimonials > ul > li {
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -710,6 +730,8 @@ body.index section#testimonials > ul > li {
   body.index section#testimonials > ul > li {
     float: left;
     width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 body.index section#testimonials > ul > li.left {
@@ -748,10 +770,14 @@ body.index section#accomplishments {
   background-image: url('/static/splash/display-gray.png');
 }
 body.index section#accomplishments ul li {
-  margin-left: -15px;
-  margin-right: -15px;
   *zoom: 1;
   margin-bottom: 35px;
+}
+@media (min-width: 768px) {
+  body.index section#accomplishments ul li {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 }
 body.index section#accomplishments ul li:before,
 body.index section#accomplishments ul li:after {
@@ -776,8 +802,6 @@ body.index section#accomplishments ul li div:after {
 }
 body.index section#accomplishments ul .description {
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -786,6 +810,8 @@ body.index section#accomplishments ul .description {
   body.index section#accomplishments ul .description {
     float: left;
     width: 66.66666667%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 body.index section#accomplishments ul .stat {
@@ -797,8 +823,6 @@ body.index section#accomplishments ul .stat em {
 }
 body.index section#accomplishments ul .logo {
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -807,6 +831,8 @@ body.index section#accomplishments ul .logo {
   body.index section#accomplishments ul .logo {
     float: left;
     width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media (min-width: 768px) {
@@ -878,9 +904,20 @@ body.post h4.meta {
   body.index section#splash .overlay.text .tagline {
     font-size: 1em;
   }
+  body.index section:not(#splash).fullwidth .wrapper {
+    margin: 0 5px;
+  }
   body.index section#how-we-work {
     height: auto !important;
     background: #783F17;
+  }
+  body.index section#how-we-work > ul > li ul {
+    float: left;
+    width: 55%;
+    padding-right: 0px;
+  }
+  body.index section#how-we-work > ul > li ul img {
+    float: right;
   }
   body.index section#testimonials {
     height: auto !important;
@@ -897,9 +934,11 @@ body.post h4.meta {
     height: auto !important;
     background: #35353B;
   }
+  body.index section#team ul {
+    width: 100%;
+  }
   body.index section#team ul li .about {
     margin: 10px;
-    width: auto;
   }
 }
 @media (max-width: 768px) {

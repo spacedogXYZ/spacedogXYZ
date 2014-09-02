@@ -10,9 +10,22 @@ body.index { @media (max-width: @grid-float-breakpoint) {
     }
   }
 
+  section:not(#splash).fullwidth {
+    .wrapper {
+      margin: 0 5px;
+    }
+  }
+
   section#how-we-work {
     height: auto !important;
     background: #783F17;
+
+    & > ul > li ul {
+      float: left;
+      width: 55%;
+      padding-right: 0px;
+      img { float: right; }
+    }
   }
 
   section#testimonials {
@@ -33,12 +46,15 @@ body.index { @media (max-width: @grid-float-breakpoint) {
     height: auto !important;
     background: #35353B;
 
-    ul li .about {
-      margin: 10px;
-      width: auto;
+    ul {
+      width: 100%;
+      li .about {
+        margin: 10px;
+        // width: auto;
+      }
     }
   }
-} }
+}}
 
 @media (max-width: @grid-float-breakpoint) {
   .displayBackground {
