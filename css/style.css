@@ -916,6 +916,9 @@ body.post h4.meta {
   body.index section#splash .overlay.text .tagline {
     font-size: 1em;
   }
+  body.index section:not(#splash).fullwidth {
+    margin-top: 0px;
+  }
   body.index section:not(#splash).fullwidth .wrapper {
     margin: 0;
   }
