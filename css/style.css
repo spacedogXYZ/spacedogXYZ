@@ -393,16 +393,25 @@ table {
   }
 }
 @font-face {
-  font-family: "CATNorth";
-  src: url(/static/fonts/CATNorth.ttf);
+  font-family: 'CATNorth';
+  src: url('/static/fonts/catnorth-webfont.eot');
+  src: url('/static/fonts/catnorth-webfont.eot?#iefix') format('embedded-opentype'), url('/static/fonts/catnorth-webfont.woff') format('woff'), url('/static/fonts/catnorth-webfont.ttf') format('truetype'), url('/static/fonts/catnorth-webfont.svg#cat_northregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: "Opificio Neue";
-  src: url(/static/fonts/OpificioNeue.ttf);
+  font-family: 'Opificio Neue';
+  src: url('/static/fonts/opificioneue-webfont.eot');
+  src: url('/static/fonts/opificioneue-webfont.eot?#iefix') format('embedded-opentype'), url('/static/fonts/opificioneue-webfont.woff') format('woff'), url('/static/fonts/opificioneue-webfont.ttf') format('truetype'), url('/static/fonts/opificioneue-webfont.svg#opificio_neueregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: "Eurostile";
-  src: url(/static/fonts/Eurostile.ttf);
+  font-family: 'Eurostile';
+  src: url('/static/fonts/eurostile-webfont.eot');
+  src: url('/static/fonts/eurostile-webfont.eot?#iefix') format('embedded-opentype'), url('/static/fonts/eurostile-webfont.woff') format('woff'), url('/static/fonts/eurostile-webfont.ttf') format('truetype'), url('/static/fonts/eurostile-webfont.svg#eurostileregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 .icon {
   width: 15px;
