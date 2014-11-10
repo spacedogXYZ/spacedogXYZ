@@ -774,70 +774,70 @@ body.index section#testimonials > ul > li span.person .text {
   display: block;
   text-align: right;
 }
-body.index section#accomplishments {
+body.index section#results {
   background-color: #58595B;
   background-image: url('/static/splash/display-gray.png');
 }
-body.index section#accomplishments ul li {
+body.index section#results ul li {
   *zoom: 1;
   margin-bottom: 35px;
 }
 @media (min-width: 768px) {
-  body.index section#accomplishments ul li {
+  body.index section#results ul li {
     margin-left: -15px;
     margin-right: -15px;
   }
 }
-body.index section#accomplishments ul li:before,
-body.index section#accomplishments ul li:after {
+body.index section#results ul li:before,
+body.index section#results ul li:after {
   content: " ";
   display: table;
   line-height: 0;
 }
-body.index section#accomplishments ul li:after {
+body.index section#results ul li:after {
   clear: both;
 }
-body.index section#accomplishments ul li div {
+body.index section#results ul li div {
   *zoom: 1;
 }
-body.index section#accomplishments ul li div:before,
-body.index section#accomplishments ul li div:after {
+body.index section#results ul li div:before,
+body.index section#results ul li div:after {
   content: " ";
   display: table;
   line-height: 0;
 }
-body.index section#accomplishments ul li div:after {
+body.index section#results ul li div:after {
   clear: both;
 }
-body.index section#accomplishments ul .description {
+body.index section#results ul .description {
   min-height: 1px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (min-width: 768px) {
-  body.index section#accomplishments ul .description {
+  body.index section#results ul .description {
     float: left;
     width: 66.66666667%;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-body.index section#accomplishments ul .stat {
+body.index section#results ul .stat {
   margin-left: 20px;
 }
-body.index section#accomplishments ul .stat em {
+body.index section#results ul .stat em {
   font-weight: bold;
   font-style: normal;
 }
-body.index section#accomplishments ul .logo {
+body.index section#results ul .logo {
   min-height: 1px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (min-width: 768px) {
-  body.index section#accomplishments ul .logo {
+  body.index section#results ul .logo {
     float: left;
     width: 25%;
     padding-left: 15px;
@@ -845,11 +845,11 @@ body.index section#accomplishments ul .logo {
   }
 }
 @media (min-width: 768px) {
-  body.index section#accomplishments ul .logo {
+  body.index section#results ul .logo {
     margin-left: 8.33333333%;
   }
 }
-body.index section#accomplishments ul .logo img {
+body.index section#results ul .logo img {
   float: left;
 }
 body.index section#team {
@@ -906,6 +906,9 @@ body.post .videoWrapper iframe {
 body.post h4.meta {
   text-align: right;
 }
+body.post div.tag-list {
+  margin-top: 5px;
+}
 @media (max-width: 768px) {
   body.index {
     overflow-x: hidden;
@@ -938,11 +941,11 @@ body.post h4.meta {
     height: auto !important;
     background: #0A3E52;
   }
-  body.index section#accomplishments {
+  body.index section#results {
     height: auto !important;
     background: #58595B;
   }
-  body.index section#accomplishments ul .logo img {
+  body.index section#results ul .logo img {
     float: right;
   }
   body.index section#team {

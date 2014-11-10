@@ -94,16 +94,16 @@ body_class: index
 </ul>
 </section>
 
-<section id="accomplishments" class="fullwidth">
+<section id="results" class="fullwidth">
 <h2>What Have We Accomplished?</h2>
 <ul class="wrapper">
-  {% for a in site.data.accomplishments %}
+  {% for r in site.data.results %}
   <li><div>
     <div class="description">
-      <div class="name">{{a.title}}: {% if a.client %}{{a.client}}{% else %}{{a.role}}{%endif%}, {{a.date}}</div>
-      <div class="stat">{{a.stat}}</div>
+      <div class="name">{{r.title}}: {% if r.client %}{{r.client}}{% else %}{{r.role}}{%endif%}, {{r.date}}</div>
+      <div class="stat">{{r.stat}}</div>
     </div>
-    <div class="logo"><img src="{{a.logo}}" alt="{{a.client}}"/></div>
+    <div class="logo"><img src="{{r.logo}}" alt="{{r.client}}"/></div>
   </li>
   {% endfor %}
 </ul>
