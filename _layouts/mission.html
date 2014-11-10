@@ -1,6 +1,6 @@
 ---
 layout: default
-body_class: post
+body_class: mission_report
 ---
 <div class="wrapper">
   <h2>{{ page.title }}</h2>
@@ -10,7 +10,7 @@ body_class: post
   </div>
 
   <h4 class="meta">
-    Posted on {{ page.date | date_to_long_string }}
+    Mission Report {{ page.date | date_to_long_string }}
     {% if page.category %} in <a href="/categories/{{ page.category | slugize }}">{{ page.category }}</a> {% endif %}
 
     <!--<div class="tag-list">
