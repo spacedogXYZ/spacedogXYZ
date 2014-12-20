@@ -482,12 +482,11 @@ header h1 a:visited {
 #logo {
   font-family: "CATNorth", Consolas, monospace;
 }
-#logo .icon {
+#logo img.icon {
   width: 40px;
   margin-right: -5px;
-  margin-top: -3px;
 }
-#logo .icon:after {
+#logo img.icon:after {
   content: "d";
   font-size: 0;
 }
