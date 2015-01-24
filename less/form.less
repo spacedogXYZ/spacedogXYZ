@@ -1,0 +1,35 @@
+section#blastoff {
+  form {
+    &> label {
+      display: block;
+      margin-top: 15px;
+    }
+
+    label.error {
+      color: @orange;
+    }
+
+    input[type="text"], input[type="email"], select {
+      display: block;
+      clear: left;
+    }
+
+    textarea {
+      width: 50%;
+      height: 50px;
+    }
+
+    ul li {
+      margin-top: 5px;
+    }
+
+    button {
+      margin-top: 10px;
+      border-radius: 5px;
+      border-color: @light-gray;
+      background: @white;
+      text-color: @black;
+      font-size: 1.5em;
+    }
+  }
+}

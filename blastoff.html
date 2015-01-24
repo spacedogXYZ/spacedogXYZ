@@ -1,26 +1,84 @@
 ---
 title: Blastoff with Us!
 layout: default
+end_script: |
+  <script src="/js/jquery.validate.js"></script>
+  <script>
+    $('form').submit(function(event) {
+      event.preventDefault();
+      $("form").validate({
+        submitHandler: function(form) {
+          $.ajax({
+            url: "//formspree.io/josh@spacedog.xyz", 
+            method: "POST",
+            data: $('form').serializeArray(),
+            dataType: "json",
+            success: function() { 
+              $('form').slideUp();
+              $('#success').slideDown();
+            }
+          });
+        }
+      });
+    });
+    </script>
 ---
 
 <div class="wrapper">
 
-<section id="values">
-<h2>Why Spacedog?</h2>
-<ul>
-  <li>We have a strong sense of adventure</li>
-  <li>We will be fiercely loyal to your project and goals</li>
-  <li>We can take you to the stars</li>
-</ul>
-</section>
-
 <section id="blastoff">
-<h2>Ready to begin your journey?</h2>
-<ol id="steps">
-  <li>Check the schedule</li>
-  <li>Chart your course</li>
-  <li>Prepare for awesome</li>
-</ol>
+<h2>Ready to begin your journey with Spacedog?</h2>
+<p>
+<form action="//formspree.io/josh@spacedog.xyz" method="POST">
+    <input type="hidden" name="_subject" value="New Project Submission" />
+
+    <label>Name
+      <input type="text" name="name" placeholder="Your Name" required />
+    </label>
+
+    <label>Email
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+    </label>
+
+    <label>Organization
+      <input type="text" name="organization" placeholder="Your Organization" />
+    </label>
+
+    <label><b>What is your budget?</b>
+    <select name="budget" required>
+      <option value=""></option>
+      <option value="1-3k">&lt; $3,000</option>
+      <option value="3-5k">$3,000 - $5,000</option>
+      <option value="5-10k">$5,000 - $10,000</option>
+      <option value=">10k">&gt; $10,000</option>
+    </select></label>
+
+    <label><b>What is your project goal?</b></label>
+    <textarea name="project-goal" placeholder="What change do you want to see in the world?"></textarea>
+
+    <label><b>How can Spacedog help?</b></label>
+    <ul>
+      <li><label><input name="needs" type="checkbox" value="survey"/> Surveying the landscape</label></li>
+      <li><label><input name="needs" type="checkbox" value="strategy"/> Planning a strategy</label></li>
+      <li><label><input name="needs" type="checkbox" value="design-implement"/> Design and Implementation</label></li>
+      <li><label><input name="needs" type="checkbox" value="on-the-ground"/> On-the-ground Development</label></li>
+    </ul>
+
+    <label><b>How soon do you need us?</b></label>
+    <ul>
+      <li><label><input name="timeline" type="radio" value="ASAP"/> Yesterday</label></li>
+      <li><label><input name="timeline" type="radio" value="this-month"/> This month</label></li>
+      <li><label><input name="timeline" type="radio" value="next-month"/> Next month</label></li>
+      <li><label><input name="timeline" type="radio" value="later"/> Later this year</label></li>
+    </ul>
+
+    <input type="text" name="_gotcha" style="display:none" />
+    <button type="submit">Blastoff!</button>
+</form>
+
+<div id="success" style="display:none">
+  <h3>We have received your mission briefing, and we will get back to you shortly.</h3>
+</div>
 
 </section>
 
