@@ -950,9 +950,24 @@ body.mission .meta:after {
 body.mission .meta:after {
   clear: both;
 }
+body.mission .map-wrapper {
+  float: left;
+  padding-right: 10px;
+}
 body.mission .map {
-  width: 250px;
-  float: right;
+  width: 100px;
+}
+body.mission .content {
+  *zoom: 1;
+}
+body.mission .content:before,
+body.mission .content:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+body.mission .content:after {
+  clear: both;
 }
 @media (max-width: 768px) {
   body.index {
