@@ -1,5 +1,11 @@
 #country {
   fill: none;
-  stroke: white;
+  stroke: gray;
   stroke-width: 4px;
+}
+
+#location {
+  stroke: #F27E30;
+  fill: #F27E30;
+  stroke-width:10px;
 }
