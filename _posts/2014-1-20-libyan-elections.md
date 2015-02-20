@@ -2,7 +2,7 @@
 layout: post
 title: Libyan Elections
 description: Three months, 1.5 million voter registrations, and one new democracy
-type: Mission Report
+category: mission
 location: Tripoli, Libya
 date_month_only: true
 map: /static/maps/svg/libya.svg

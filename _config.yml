@@ -1,8 +1,13 @@
 title: SpaceDog
-permalink: pretty
+permalink: /:categories/:title/
 
 collections: 
   testimonials:
     output: false
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
 
 exclude: ['node_modules']

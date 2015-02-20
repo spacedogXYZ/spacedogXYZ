@@ -1,27 +1,10 @@
 ---
 title: Blastoff with Us!
 layout: default
+permalink: /blastoff/
 end_script: |
   <script src="/js/jquery.validate.js"></script>
-  <script>
-    $('form').submit(function(event) {
-      event.preventDefault();
-      $("form").validate({
-        submitHandler: function(form) {
-          $.ajax({
-            url: "//formspree.io/josh@spacedog.xyz", 
-            method: "POST",
-            data: $('form').serializeArray(),
-            dataType: "json",
-            success: function() { 
-              $('form').slideUp();
-              $('#success').slideDown();
-            }
-          });
-        }
-      });
-    });
-    </script>
+  <script src="/js/blastoff.js"></script>
 ---
 
 <div class="wrapper">
