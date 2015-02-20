@@ -24,7 +24,8 @@ config = {
         "mode": "polygons",
         "data": {
             "layer": "country",
-        }
+        },
+        "padding": 0.01 # maybe this gets interpreted in em's?
     },
     "export": {
        "width": 500,
@@ -41,10 +42,10 @@ if __name__ == "__main__":
 
         #write location dict to tmp.csv
         with open('tmp.csv', 'wb') as csvfile:
-            writer =  csv.DictWriter(csvfile, fieldnames=['name','lat','lon'])
+            writer =  csv.DictWriter(csvfile, fieldnames=['name','lat','lon', 'r'])
             writer.writeheader()
             for name,loc in m['location'].items():
-                writer.writerow({'name': name, 'lat': loc[0], 'lon': loc[1]})
+                writer.writerow({'name': name, 'lat': loc[0], 'lon': loc[1], 'r': 10})
 
         fn = 'svg/%s.svg' % country
         K.generate(config, outfile=fn, stylesheet=css)
