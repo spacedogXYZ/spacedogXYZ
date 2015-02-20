@@ -11,7 +11,6 @@ function resetOverlay() {
 
 
 $(document).ready(function() {
-  console.log('Spacedog');
 
   $(window).resize(resetOverlay);
   resetOverlay();
