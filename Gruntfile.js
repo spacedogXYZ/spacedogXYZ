@@ -58,7 +58,7 @@ module.exports = function(grunt) {
       server: {
         options: {
           base: '_site/',
-          port: 9009
+          port: 4000
         }
       }
     },
