@@ -1,8 +1,12 @@
 body.archive {
   ul.posts {
     list-style-type: none;
+    .make-row(); 
+
     li {
       .clearfix();
+      .make-column(6);
+      max-height: 154px; //limit text to vertical space
       margin: 20px 0;
 
       .thumb {
