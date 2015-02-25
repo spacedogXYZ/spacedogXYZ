@@ -12,8 +12,8 @@ body_class: post mission
       {% if page.date_month_only %} {{ page.date | date: '%B, %Y' }}
       {% else %} {{ page.date | date_to_long_string }} {% endif %}
     </div>{%endif%}
-
     {% if page.location %} <div class="location">{{page.location}}</div> {%endif%}
+    {% if page.client_link %} <div class="client">{{page.client_link}}</div> {%endif%}
  </div>
 
   <div class="content">
@@ -26,16 +26,17 @@ body_class: post mission
   <div class="next-prev-nav low-top">
     {% if page.next.url %}
       &laquo;&nbsp;<a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">{{ page.next.title }}</a>
-    {% endif %}
-  
-    {% if page.next.url %}
-      {% if page.previous.url %}
-        |
-      {% endif %}
+      &nbsp;|&nbsp;
     {% endif %}
     
-  
+    {% if page.category == 'mission' %}
+    <a href="/mission/">Mission Reports</a>
+    {% else %}
+    <a href="/blog/">Blog Archive</a>
+    {% endif %}
+
     {% if page.previous.url %}
+      &nbsp;|&nbsp;
       <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title }}</a>&nbsp;&raquo;
     {% endif %}
   

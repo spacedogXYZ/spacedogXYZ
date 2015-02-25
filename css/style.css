@@ -474,6 +474,16 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  *zoom: 1;
+}
+.wrapper:before,
+.wrapper:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+.wrapper:after {
+  clear: both;
 }
 ul {
   padding: 0;
@@ -906,10 +916,30 @@ body.archive ul.posts {
   list-style-type: none;
 }
 body.archive ul.posts li {
-  margin-bottom: 20px;
+  *zoom: 1;
+  margin: 20px 0;
+}
+body.archive ul.posts li:before,
+body.archive ul.posts li:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+body.archive ul.posts li:after {
+  clear: both;
+}
+body.archive ul.posts li .thumb {
+  float: left;
+  margin-right: 10px;
+}
+body.archive ul.posts li .thumb img {
+  max-width: 150px;
+}
+body.archive ul.posts li .thumb img:hover {
+  box-shadow: 5px 5px #f27e30;
 }
 body.archive ul.posts li h3 {
-  margin-bottom: 0;
+  margin: 0;
 }
 body.archive ul.posts li h3 a {
   color: #ffffff;
@@ -919,6 +949,9 @@ body.archive ul.posts li h3 a:hover {
 }
 body.archive ul.posts li .date {
   margin-bottom: 5px;
+}
+body.post h3 {
+  clear: both;
 }
 body.post .videoWrapper {
   position: relative;
@@ -934,6 +967,19 @@ body.post .videoWrapper iframe {
   left: 0;
   width: 100%;
   height: 100%;
+}
+body.post .inline {
+  margin: 0 20px;
+}
+body.post .inline.right {
+  float: right;
+}
+body.post .inline.left {
+  float: left;
+}
+body.post .inline.center {
+  width: 100%;
+  text-align: center;
 }
 body.post div.tag-list {
   margin-top: 5px;
