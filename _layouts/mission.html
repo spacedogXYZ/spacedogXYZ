@@ -9,10 +9,12 @@ extra_header: "&raquo; <a href='/mission/'>Mission Report</a>"
     {% if page.map %} <div class="map-wrapper"><object type="image/svg+xml" data="{{page.map}}" class="map"></object></div> {%endif%}
  
     {% if page.type %}<div class="page-type">{{page.type}}</div>{% endif %}
-    {% if page.date %}<div class="date">
-      {% if page.date_month_only %} {{ page.date | date: '%B, %Y' }}
-      {% else %} {{ page.date | date_to_long_string }} {% endif %}
-    </div>{%endif%}
+    <div class="date">
+      {% if page.date_string %} {{page.date_string}} {% else %}
+        {% if page.date_month_only %} {{ page.date | date: '%B, %Y' }}
+        {% else %} {{ page.date | date_to_long_string }} {% endif %}
+      {% endif %}
+    </div>
     {% if page.location %} <div class="location">{{page.location}}</div> {%endif%}
     {% if page.client_link %} <div class="client">{{page.client_link}}</div>{%endif%}
  </div>
