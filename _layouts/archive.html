@@ -11,7 +11,7 @@ layout: default
 
   <ul class="posts">
   {% if page.category_filter %}
-    {% assign posts = (site.posts | where: "layout", page.category_filter)  %}
+    {% assign posts = (site.posts | where: "category", page.category_filter)  %}
   {% else %}
     {% assign posts = site.posts  %}
   {% endif %}

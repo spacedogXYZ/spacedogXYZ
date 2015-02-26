@@ -23,6 +23,14 @@ body.archive {
       .date { margin-bottom: 5px; }
     }
   }
+
+  @media (max-width: @grid-float-breakpoint) {
+    ul.posts li {
+      max-height: none;
+      h3 { clear: left; }
+      .thumb img { width: 100%; }
+    }
+  }
 }
 
 body.post {
@@ -51,6 +59,13 @@ body.post {
 
   div.tag-list {
     margin-top:5px;
+  }
+
+  @media (max-width: @grid-float-breakpoint) {
+    .inline {
+      margin: 0;
+      img { width: 100%; }
+    }
   }
 }
 
