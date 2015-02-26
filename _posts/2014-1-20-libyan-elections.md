@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Libyan Elections
-description: Three months, 1.5 million people using the first all-SMS voter registration system in the world, building one new democracy in the Middle East
+description: Three months, 1.5 million voters registered with the first all-SMS system in the world, building the foundation for a new democracy
 category: mission
 location: Tripoli, Libya
 date_month_only: true

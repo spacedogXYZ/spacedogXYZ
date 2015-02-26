@@ -1,7 +1,7 @@
 ---
 layout: post
 title: KilledByCops
-description: Data visualization of the crisis of police violence across America
+description: Data visualization of the crisis of police violence in America, telling individual stories on a nationwide map
 category: mission
 location: Oakland, CA
 date_month_only: true
@@ -20,7 +20,7 @@ Despite a Justice Department with an active civil rights division, there is no c
 
 We worked with ColorOfChange to identify reliable crowdsourced reports from [FatalEncounters.org](http://fatalencounters.org/), scrub it of typos, load it into a database and provide a programming interface. We wrote a [custom Twitter application](https://github.com/spacedogXYZ/killedbycops) to post one name per hour as a digital memorial, uploading images with names, ages, responsible agency and the geotagged location. The account gained thousands of followers and hundreds of thousands of retweets, spreading the _#killedbycops_ hashtag and the message that this epidemic of police violence must end.
 
-Building on the initial success of the twitter feed, we designed an interactive infographic to show the national scale of the problem visually. We created initial wireframes and prototype implementations to validate the idea, and worked with their principle designer to polish the look-and-feel. Using the [D3.js](http://d3js.org) framework developed at the New York Times, we produced a fluid and usable visualization that encourages users to zoom in to their home area, explore local data and stories, and demand action from the Department of Justice.
+Building on the initial success of the twitter feed, we designed an interactive infographic to show the national scale of the problem visually. We created initial wireframes and prototype implementations to validate the idea, and worked with their principle designer to polish the look-and-feel. Using the [D3.js](http://d3js.org) framework developed at the New York Times, we produced a fluid and usable visualization that encourages users to zoom in to their home area to explore local data and stories. Highlighted stories are told with an embedded Storify feed, can users can demand action from the Department of Justice with an email petition.
 
 ### Outcome ###
 
