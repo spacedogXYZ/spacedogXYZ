@@ -1,20 +1,8 @@
 section#blastoff {
-  background-color: #58595B;
-  background-image: url('/static/splash/display-gray.png');
-
-  h2 {
-    margin: 12.5% 7.5% 0 7.5%;
-  }
-  h3 {
-    margin: 0 15px;
-  }
-  .wrapper {
-    margin: 0 6.5%;
-  }
+  h2, h3 { margin: 0 20px; }
 
   form {
     .clearfix();
-    margin-top: 50px;
 
     &> label {
       display: block;
@@ -48,6 +36,9 @@ section#blastoff {
       text-color: @black;
       font-size: 1.5em;
     }
+
+    .right { text-align: right; }
+    .small { font-size: @font-size-small; }
   }
 }
 

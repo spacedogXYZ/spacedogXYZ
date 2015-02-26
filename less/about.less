@@ -1,0 +1,41 @@
+body.about {
+  ul.icons {
+    .make-row();
+
+    a > h3 { color: @black; }
+    a:hover > h3 { color: @orange; }
+
+    &> li {
+      .make-column(4);
+
+      &.left {
+        clear: left;
+      }
+
+      h3 {
+        margin: 0;
+        text-align: center;
+      }
+
+      div {
+        padding: 20px;
+        color: @black;
+        background: #808184;
+       .box-shadow(5px 5px #404041);
+        margin-bottom: 20px;
+
+        img {
+          display: block;
+          margin: 10px auto;
+        }
+      }
+    }
+  }
+
+  ul#credits {
+    margin-left: 10px;
+    width: 50%;
+    font-size: @font-size-small;
+    li { display: inline; }
+  }
+}

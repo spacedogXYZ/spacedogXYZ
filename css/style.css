@@ -406,6 +406,15 @@ table {
     padding-right: 15px;
   }
 }
+.small {
+  font-size: 0.85em;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 @font-face {
   font-family: 'CATNorth';
   src: url('/static/fonts/catnorth-webfont.eot');
@@ -517,6 +526,11 @@ header h1 a:visited {
 #logo img.icon:after {
   content: "d";
   font-size: 0;
+}
+h3.pushdown {
+  margin-top: 2.3em;
+  /* should match the baseline of an h2 in the same row */
+
 }
 .displayBackground {
   vertical-align: middle;
@@ -1048,6 +1062,130 @@ body.mission .content:after {
 body.mission .content:after {
   clear: both;
 }
+section#blastoff h2,
+section#blastoff h3 {
+  margin: 0 20px;
+}
+section#blastoff form {
+  *zoom: 1;
+}
+section#blastoff form:before,
+section#blastoff form:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+section#blastoff form:after {
+  clear: both;
+}
+section#blastoff form > label {
+  display: block;
+  margin-top: 15px;
+}
+section#blastoff form label.error {
+  color: #f27e30;
+}
+section#blastoff form input[type="text"],
+section#blastoff form input[type="email"],
+section#blastoff form select {
+  display: block;
+  clear: left;
+}
+section#blastoff form textarea {
+  width: 90%;
+  height: 50px;
+}
+section#blastoff form ul li {
+  margin-top: 5px;
+}
+section#blastoff form button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-color: #cccccc;
+  background: #ffffff;
+  text-color: #333333;
+  font-size: 1.5em;
+}
+section#blastoff form .right {
+  text-align: right;
+}
+section#blastoff form .small {
+  font-size: 0.85em;
+}
+@media (max-width: 768px) {
+  section#blastoff {
+    background: #58595B;
+    height: auto !important;
+  }
+}
+body.about ul.icons {
+  *zoom: 1;
+}
+@media (min-width: 768px) {
+  body.about ul.icons {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+body.about ul.icons:before,
+body.about ul.icons:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+body.about ul.icons:after {
+  clear: both;
+}
+body.about ul.icons a > h3 {
+  color: #333333;
+}
+body.about ul.icons a:hover > h3 {
+  color: #f27e30;
+}
+body.about ul.icons > li {
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  body.about ul.icons > li {
+    float: left;
+    width: 33.33333333333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+body.about ul.icons > li.left {
+  clear: left;
+}
+body.about ul.icons > li h3 {
+  margin: 0;
+  text-align: center;
+}
+body.about ul.icons > li div {
+  padding: 20px;
+  color: #333333;
+  background: #808184;
+  -webkit-box-shadow: 5px 5px #404041;
+  box-shadow: 5px 5px #404041;
+  margin-bottom: 20px;
+}
+body.about ul.icons > li div img {
+  display: block;
+  margin: 10px auto;
+}
+body.about ul#credits {
+  margin-left: 10px;
+  width: 50%;
+  font-size: 0.85em;
+}
+body.about ul#credits li {
+  display: inline;
+}
 @media (max-width: 768px) {
   body.index {
     overflow-x: hidden;
@@ -1103,68 +1241,5 @@ body.mission .content:after {
   .displayBackground {
     height: auto !important;
     background: #58595B;
-  }
-}
-section#blastoff {
-  background-color: #58595B;
-  background-image: url('/static/splash/display-gray.png');
-}
-section#blastoff h2 {
-  margin: 12.5% 7.5% 0 7.5%;
-}
-section#blastoff h3 {
-  margin: 0 15px;
-}
-section#blastoff .wrapper {
-  margin: 0 6.5%;
-}
-section#blastoff form {
-  *zoom: 1;
-  margin-top: 50px;
-}
-section#blastoff form:before,
-section#blastoff form:after {
-  content: " ";
-  display: table;
-  line-height: 0;
-}
-section#blastoff form:after {
-  clear: both;
-}
-section#blastoff form > label {
-  display: block;
-  margin-top: 15px;
-}
-section#blastoff form label.error {
-  color: #f27e30;
-}
-section#blastoff form input[type="text"],
-section#blastoff form input[type="email"],
-section#blastoff form select {
-  display: block;
-  clear: left;
-}
-section#blastoff form textarea {
-  width: 90%;
-  height: 50px;
-}
-section#blastoff form ul li {
-  margin-top: 5px;
-}
-section#blastoff form button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  border-radius: 5px;
-  border-color: #cccccc;
-  background: #ffffff;
-  text-color: #333333;
-  font-size: 1.5em;
-}
-@media (max-width: 768px) {
-  section#blastoff {
-    background: #58595B;
-    height: auto !important;
   }
 }
