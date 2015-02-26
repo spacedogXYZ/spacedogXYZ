@@ -9,7 +9,7 @@
     <meta property="og:title" content="Spacedog - a multi-dimensional digital agency for organizations on a mission" />
     <link href="/static/icons/helmet.png" rel="shortcut icon" type="image/x-icon">
     
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css?v={{site.time | date: '%s'}}">
 
     <title>Spacedog{%if page.title%} - {{page.title}}{%else%}.xyz{%endif%}</title>
     {% if page.top_script%}{{page.top_script}}{%endif%}
