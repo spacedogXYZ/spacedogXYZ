@@ -1031,6 +1031,9 @@ body.post .inline.center {
 body.post div.tag-list {
   margin-top: 5px;
 }
+body.mission h2 {
+  margin-top: 0;
+}
 body.mission .meta {
   *zoom: 1;
 }
