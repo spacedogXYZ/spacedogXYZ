@@ -77,6 +77,22 @@ body_class: index
 </ul>
 </section>
 
+<section id="results" class="fullwidth">
+<h2>What Are Our Results?</h2>
+<ul class="wrapper">
+  {% for r in site.data.results %}
+  <li><div>
+    <div class="description">
+      <div class="name"><a href="{{r.link}}">{{r.title}}</a>: {% if r.client %}{{r.client}}{% else %}{{r.role}}{%endif%}, {{r.date}}</div>
+      <div class="stat">{{r.stat}} {% if r.link%}<span class="readmore"><a href="{{r.link}}">&rarr;</a></span>{%endif%}</div>
+    </div>
+    <div class="logo">{% if r.link%}<a href="{{r.link}}"><img src="{{r.logo}}" alt="{{r.client}}"/></a>
+      {%else%}<img src="{{r.logo}}" alt="{{r.client}}"/>{%endif%}</div>
+  </li>
+  {% endfor %}
+</ul>
+</section>
+
 <section id="testimonials" class="fullwidth">
 <h2>Who Likes Our Work</h2>
 <ul class="wrapper">
@@ -90,21 +106,6 @@ body_class: index
         <span class="org text">{{t.org}}</span>
       </span>
   </div></li>
-  {% endfor %}
-</ul>
-</section>
-
-<section id="results" class="fullwidth">
-<h2>What Have We Accomplished?</h2>
-<ul class="wrapper">
-  {% for r in site.data.results %}
-  <li><div>
-    <div class="description">
-      <div class="name">{{r.title}}: {% if r.client %}{{r.client}}{% else %}{{r.role}}{%endif%}, {{r.date}}</div>
-      <div class="stat">{{r.stat}}</div>
-    </div>
-    <div class="logo"><img src="{{r.logo}}" alt="{{r.client}}"/></div>
-  </li>
   {% endfor %}
 </ul>
 </section>
