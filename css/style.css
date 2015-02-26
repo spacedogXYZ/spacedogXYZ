@@ -431,6 +431,10 @@ table {
   width: 15px;
   vertical-align: top;
 }
+h2 {
+  font-family: "Opificio Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+}
 ul {
   list-style-type: none;
 }
