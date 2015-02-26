@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mission
 title: KilledByCops
 description: Data visualization of the crisis of police violence in America, telling individual stories on a nationwide map
 category: mission

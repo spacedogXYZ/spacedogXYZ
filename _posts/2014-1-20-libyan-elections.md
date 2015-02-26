@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mission
 title: Libyan Elections
 description: Three months, 1.5 million voters registered with the first all-SMS system in the world, building the foundation for a new democracy
 category: mission
@@ -7,7 +7,7 @@ location: Tripoli, Libya
 date_month_only: true
 map: /static/maps/svg/libya.svg
 image: /static/posts/libyan-elections/libya-votes-poster.jpg
-client_link: <a href="http://reboot.org">Reboot.org</a>
+client_link: <a href="http://reboot.org"><img src="/static/clients/reboot.png" alt="Reboot.org"></a>&nbsp; <a href="http://hnec.ly"><img src="/static/clients/hnec.png" alt="Libyan High National Elections Commission"></a>
 ---
 
 ### Context ###

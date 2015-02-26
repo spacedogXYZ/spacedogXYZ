@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mission
 title: HackTheRainforest
 description: Gathering indigenous environmental monitors, technologists and civil society organizations to address urgent environmental problems threatening communities across the Amazon
 category: mission
