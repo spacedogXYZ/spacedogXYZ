@@ -1,5 +1,21 @@
 section#blastoff {
+  background-color: #58595B;
+  background-image: url('/static/splash/display-gray.png');
+
+  h2 {
+    margin: 12.5% 7.5% 0 7.5%;
+  }
+  h3 {
+    margin: 0 15px;
+  }
+  .wrapper {
+    margin: 0 6.5%;
+  }
+
   form {
+    .clearfix();
+    margin-top: 50px;
+
     &> label {
       display: block;
       margin-top: 15px;
@@ -15,7 +31,7 @@ section#blastoff {
     }
 
     textarea {
-      width: 50%;
+      width: 90%;
       height: 50px;
     }
 
@@ -24,12 +40,20 @@ section#blastoff {
     }
 
     button {
-      margin-top: 10px;
+      .center-block();
+      margin-top: 20px;
       border-radius: 5px;
       border-color: @light-gray;
       background: @white;
       text-color: @black;
       font-size: 1.5em;
     }
+  }
+}
+
+@media (max-width: @grid-float-breakpoint) {
+  section#blastoff {
+    background: #58595B;
+    height: auto !important;
   }
 }

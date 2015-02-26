@@ -9,25 +9,30 @@ end_script: |
 
 <div class="wrapper">
 
-<section id="blastoff">
-<h2>Ready to begin your journey with Spacedog?</h2>
-<p>
-<form action="//formspree.io/josh@spacedog.xyz" method="POST">
+<section id="blastoff" class="fullwidth">
+<h2>Ready to begin your journey?</h2>
+
+<form action="//formspree.io/josh@spacedog.xyz" method="POST" class="wrapper">
+    <h3>Fill out this form to get started</h3>
     <input type="hidden" name="_subject" value="New Project Submission" />
 
-    <label>Name
+    <label class="third">Name
       <input type="text" name="name" placeholder="Your Name" required />
     </label>
 
-    <label>Email
+    <label class="third">Email
       <input type="email" name="_replyto" placeholder="Your Email" required />
     </label>
 
-    <label>Organization
+    <label class="third">Organization
       <input type="text" name="organization" placeholder="Your Organization" />
     </label>
 
-    <label><b>What is your budget?</b>
+    <label class="two-third"><b>What is the project goal?</b><br>
+      <textarea name="project-goal" placeholder="What change do you want to see in the world?"></textarea>
+    </label>
+
+    <label class="third"><b>What is your budget?</b>
     <select name="budget" required>
       <option value=""></option>
       <option value="1-3k">&lt; $3,000</option>
@@ -36,31 +41,32 @@ end_script: |
       <option value=">10k">&gt; $10,000</option>
     </select></label>
 
-    <label><b>What is your project goal?</b></label>
-    <textarea name="project-goal" placeholder="What change do you want to see in the world?"></textarea>
-
-    <label><b>How can Spacedog help?</b></label>
+    <label class="half"><b>How can Spacedog help?</b>
     <ul>
       <li><label><input name="needs" type="checkbox" value="survey"/> Surveying the landscape</label></li>
       <li><label><input name="needs" type="checkbox" value="strategy"/> Planning a strategy</label></li>
       <li><label><input name="needs" type="checkbox" value="design-implement"/> Design and Implementation</label></li>
       <li><label><input name="needs" type="checkbox" value="on-the-ground"/> On-the-ground Development</label></li>
     </ul>
+    </label>
 
-    <label><b>How soon do you need us?</b></label>
+    <label class="half"><b>How soon do you need us?</b>
     <ul>
       <li><label><input name="timeline" type="radio" value="ASAP"/> Yesterday</label></li>
       <li><label><input name="timeline" type="radio" value="this-month"/> This month</label></li>
       <li><label><input name="timeline" type="radio" value="next-month"/> Next month</label></li>
       <li><label><input name="timeline" type="radio" value="later"/> Later this year</label></li>
     </ul>
+    </label>
 
     <input type="text" name="_gotcha" style="display:none" />
-    <button type="submit">Blastoff!</button>
+    <div class="full">
+      <button type="submit" class="center-block">Blastoff!</button>
+    </div>
 </form>
 
 <div id="success" style="display:none">
-  <h3>We have received your mission briefing, and we will get back to you shortly.</h3>
+  <h3>We have received your mission briefing, and will get back to you shortly.</h3>
 </div>
 
 </section>

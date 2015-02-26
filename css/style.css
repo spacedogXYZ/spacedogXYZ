@@ -1101,6 +1101,32 @@ body.mission .content:after {
     background: #58595B;
   }
 }
+section#blastoff {
+  background-color: #58595B;
+  background-image: url('/static/splash/display-gray.png');
+}
+section#blastoff h2 {
+  margin: 12.5% 7.5% 0 7.5%;
+}
+section#blastoff h3 {
+  margin: 0 15px;
+}
+section#blastoff .wrapper {
+  margin: 0 6.5%;
+}
+section#blastoff form {
+  *zoom: 1;
+  margin-top: 50px;
+}
+section#blastoff form:before,
+section#blastoff form:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+section#blastoff form:after {
+  clear: both;
+}
 section#blastoff form > label {
   display: block;
   margin-top: 15px;
@@ -1115,17 +1141,26 @@ section#blastoff form select {
   clear: left;
 }
 section#blastoff form textarea {
-  width: 50%;
+  width: 90%;
   height: 50px;
 }
 section#blastoff form ul li {
   margin-top: 5px;
 }
 section#blastoff form button {
-  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   border-radius: 5px;
   border-color: #cccccc;
   background: #ffffff;
   text-color: #333333;
   font-size: 1.5em;
+}
+@media (max-width: 768px) {
+  section#blastoff {
+    background: #58595B;
+    height: auto !important;
+  }
 }
