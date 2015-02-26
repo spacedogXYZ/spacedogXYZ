@@ -1046,6 +1046,9 @@ body.mission .meta:after {
 body.mission .meta:after {
   clear: both;
 }
+body.mission .client img {
+  vertical-align: middle;
+}
 body.mission .map-wrapper {
   float: left;
   padding-right: 10px;
