@@ -7,7 +7,7 @@ location: Tarapoto, Peru
 date_month_only: true
 map: /static/maps/svg/peru.svg
 image: /static/posts/hacktherainforest/monitor-gps.jpg
-client_link: <a href="http://digitaldemocracy.org">DigitalDemocracy</a>
+client_link: <a href="http://digital-democracy.org"><img src="/static/clients/digidem.png" alt="DigitalDemocracy"></a>
 ---
 
 ### Context ###
