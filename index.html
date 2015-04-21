@@ -33,6 +33,11 @@ end_script: |
   <script src='/js/splash.js'></script>
 body_class: index
 ---
+{% for availability in site.data.schedule %}
+{% if forloop.last %}
+<h2 class="availability"><a href="/blastoff/" data-date="{{availability.date}}">{{availability.headline}}</a></h2>
+{% endif %}
+{% endfor %}
 
 <section id="how-we-work" class="fullwidth">
 <h2>How We Work</h2>

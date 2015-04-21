@@ -663,6 +663,21 @@ body.index section#splash .overlay.text .tagline {
   margin-left: 11%;
   width: 65%;
 }
+body.index h2.availability {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+  background: #0A3E52;
+}
+body.index h2.availability a {
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+body.index h2.availability a:hover {
+  color: #f27e30;
+}
 body.index section:not(#splash).fullwidth h2 {
   margin: 12.5% 7.5% 0 7.5%;
 }
