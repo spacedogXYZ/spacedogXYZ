@@ -634,6 +634,12 @@ body.index section h2 {
   font-family: "Opificio Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2em;
 }
+body.index section h2 a {
+  color: white;
+}
+body.index section h2 a:hover {
+  color: #f7ab78;
+}
 body.index section#splash {
   margin: 0;
 }
