@@ -20,7 +20,9 @@ $(document).ready(function() {
 
   // bind rollover events
   $('area').on('mouseover', function() {
-    $('img#rollover').attr({src: '/static/splash/'+$(this).attr('alt')+'.png'});
+    if($(this).attr('alt')) {
+      $('img#rollover').attr({src: '/static/splash/'+$(this).attr('alt')+'.png'});
+    }
   });
   $('area').on('mouseout', function() {
     $('img#rollover').attr({src: '/static/splash/transparent.png'});
