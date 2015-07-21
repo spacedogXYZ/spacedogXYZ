@@ -8,6 +8,7 @@ MAPS = {
     'uganda': {'iso':['UGA',], 'location': {'Kampala': [0.313611, 32.581111]}},
     'libya': {'iso':['LBY',], 'location': {'Tripoli': [32.904722, 13.193333]}},
     'peru': {'iso':['PER',], 'location': {'Tarapoto': [-6.483333, -76.366667]}},
+    'phoenix': {'iso': ['USA',], 'location': {'Phoenix': [33.45, -112.05]}, 'proj': 'laea-usa'}
 }
 
 config = {
