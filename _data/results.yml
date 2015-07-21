@@ -1,9 +1,3 @@
-# - title: HackTheRainforest
-#   client: DigitalDemocracy
-#   date: February 2015
-#   stat: Designed peer-to-peer offline sync protocol for mobile applications, making the hard work of data aggregation simple
-#   logo: /static/clients/digidem.png
-#   link: /mission/hacktherainforest
 - title: CallPower
   client: Electronic Frontier Foundation
   date: June 2015
@@ -14,21 +8,21 @@
 - title: KilledByCops
   client: ColorOfChange
   date: October 2014
-  stat: <em>8.4 million</em> Twitter users reached with a memorial feed and data visualization showing the crisis of police violence in America
+  stat: <em>8.4 million</em> Twitter users reached with a memorial feed and data visualization showing the crisis of police violence in America.
   logo: /static/clients/colorofchange.png
   link: /mission/killedbycops
 
 - title: LibyaVotes
   client: Reboot.org
   date: January 2014
-  stat: <em>1.5 million voters</em> registered with mobile phones in a new democracy, on the ground for 3 months
+  stat: <em>1.5 million voters</em> registered with mobile phones in a new democracy, on the ground for 3 months.
   logo: /static/clients/hnec.png
   link: /mission/libyan-elections
 
 - title: register2.rockthevote.com
   client: RockTheVote
   date: Election 2012
-  stat: <em>600,000 voters</em> registered with a new online form, redesigned for usability and quick completion
+  stat: <em>600,000 voters</em> registered with a new online form, redesigned for usability and quick completion.
   logo: /static/clients/rockthevote.png
   link: /mission/rockthevote
 
@@ -38,8 +32,8 @@
 #   stat: launched <em>twenty websites in three years</em> for clients with a combined membership of over <em>3 million</em> activists
 #   logo: /static/clients/cel.png
 
-- title: <a href="http://web.mit.edu/">MIT</a> <a href="http://media.mit.edu/">Media Lab</a>
-  role: Graduate student
-  date: 2009-2010
-  stat: built counter-surveillance drones, websites for collective economic action, and mapped historical injustices
-  logo: /static/clients/medialab.png
+# - title: <a href="http://web.mit.edu/">MIT</a> <a href="http://media.mit.edu/">Media Lab</a>
+#   role: Graduate student
+#   date: 2009-2010
+#   stat: built counter-surveillance drones, websites for collective economic action, and mapped historical injustices
+#   logo: /static/clients/medialab.png
