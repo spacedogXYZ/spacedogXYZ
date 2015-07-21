@@ -4,6 +4,12 @@
 #   stat: Designed peer-to-peer offline sync protocol for mobile applications, making the hard work of data aggregation simple
 #   logo: /static/clients/digidem.png
 #   link: /mission/hacktherainforest
+- title: CallPower
+  client: Electronic Frontier Foundation
+  date: June 2015
+  stat: Easy-to-use tool for call campaigns, placing over <em>100k</em> calls for net neutrality. Now available for your organization.
+  logo: /static/clients/eff.png
+  link: /mission/callpower
 
 - title: KilledByCops
   client: ColorOfChange
