@@ -913,6 +913,7 @@ body.index section#results ul .logo {
 }
 body.index section#results ul .logo img {
   float: left;
+  max-width: 150px;
 }
 body.index section#team {
   background-color: #35353B;
