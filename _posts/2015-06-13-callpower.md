@@ -26,7 +26,7 @@ end_script: |
 
 ### Context ###
 
-Starting in January, we began working with [Demand Progress](http://demandprogress.org) on a series of "microsites" that enabled their members to easily call Congress regarding Net Neutrality concerns. The project that enabled this was developed by the [Internet Taskforce)](https://taskforce.is) in 2014 as an open source tool using the Twilio API. The code works well and powered over 100,000 calls, but it required a highly technical user to create new campaigns and alter targets. After building a half-dozen individual sites for different campaigns, I approached several different organizations about combining efforts and developing a user-friendly interface.
+Starting in January, we began working with [Demand Progress](http://demandprogress.org) on a series of "microsites" that enabled their members to easily call Congress to defend Net Neutrality. The project that enabled this was developed by the [Internet Taskforce](https://taskforce.is) in 2014 as an open source tool using the Twilio API. The code works well and powered over 100,000 calls, but it required a highly technical user to create new campaigns and alter targets. After building a half-dozen individual sites for different campaigns, I approached several different organizations about combining efforts and developing a user-friendly interface.
 
 ### Engagement ###
 
@@ -34,7 +34,7 @@ The Electronic Frontier Foundation generously funded all of the development, off
 
 ### Results ###
 
-The CallPower is designed to be easy to use: just record your message in the browser, choose your targets, and add a short snippet of code to your action form. When your members fill it out, they'll get an immediate call back playing your message, and then connecting them to the target. It has phone numbers for Congressional offices and state representatives are built in, and you can add custom numbers for local, corporate or international campaigns.
+The CallPower is designed to be easy to use: just record your message in the browser, choose your targets, and add a short snippet of code to your action form. When your members fill it out, they'll get an immediate call back playing your message, and then connecting them to the target. It has phone numbers for Congressional offices and state representatives built in, and you can add custom numbers for local, corporate or international campaigns.
 
 You can try a demo at [CallPower.org](http://callpower.org), we will provide a hosted version for a reasonable monthly fee, and the code can be downloaded from [GitHub](https://github.com/spacedogXYZ/call-power).
 
