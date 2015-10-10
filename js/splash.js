@@ -28,18 +28,10 @@ $(document).ready(function() {
     $('img#rollover').attr({src: '/static/splash/transparent.png'});
   });
 
-  // stick frontpage sections
-  /* janky, kill it
-  $('section.fullwidth').not('#splash').waypoint(function() {
-    console.log('stop at '+$(this).attr('id'));
-    $(window).disableScroll({releaseAfter: 200,
-        doAfter: function() {
-          console.log('move along now');
-          $.fn.scrollTo($(this).next('section'));
-          $(window).disableScroll('undo');
-        }
-    });
-  }, { offset: 20, direction: 'down right', triggerOnce: true });
-  */
+  // update schedule
+  var last_date = new Date($('h2.availability a').first().data('date'));
+  if (new Date() > last_date) {
+    $('h2.availability a').text('Booking now for new missions');
+  }
 });
 
