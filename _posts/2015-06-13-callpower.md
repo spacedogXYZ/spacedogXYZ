@@ -38,7 +38,7 @@ The CallPower is designed to be easy to use: just record your message in the bro
 
 You can try a demo at [CallPower.org](http://callpower.org), we will provide a hosted version for a reasonable monthly fee, and the code can be downloaded from [GitHub](https://github.com/spacedogXYZ/call-power).
 
-<div id="slides" class="full">
+<div id="slides" class="two-third">
     <img src="/static/posts/callpower/screenshots/1-dashboard.png">
     <img src="/static/posts/callpower/screenshots/2-create.png">
     <img src="/static/posts/callpower/screenshots/3-1-audio.png">

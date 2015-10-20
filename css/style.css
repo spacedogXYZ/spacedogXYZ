@@ -1124,6 +1124,22 @@ body.mission .videoWrapper iframe {
   width: 100%;
   height: 100%;
 }
+body.post .two-third,
+body.mission .two-third {
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  body.post .two-third,
+  body.mission .two-third {
+    float: left;
+    width: 66.66666666666666%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 body.post .full,
 body.mission .full {
   min-height: 1px;
