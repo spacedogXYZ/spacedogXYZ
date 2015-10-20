@@ -1,13 +1,15 @@
 body.archive {
   ul.posts {
     list-style-type: none;
-    .make-row(); 
+    .make-row();
 
     li {
       .clearfix();
       .make-column(6);
       max-height: 154px; //limit text to vertical space
       margin: 20px 0;
+
+      &.left { clear: left; }
 
       .thumb {
         float: left;
@@ -33,8 +35,31 @@ body.archive {
   }
 }
 
-body.post {
+body.post, body.mission {
+  h2 { margin-top: 0; }
   h3 { clear: both; }
+
+  .meta { .clearfix(); }
+  .client img {
+    vertical-align: middle;
+    max-width: 300px;
+  }
+  
+  .map-wrapper {
+    float: left;
+    padding-right: 10px;
+  }
+  .map { 
+    width: 100px;
+  }
+
+  .content {
+    .clearfix();
+  }
+
+  p, hr { 
+    .two-third();
+  }
 
   .videoWrapper {
     position: relative;
@@ -50,6 +75,7 @@ body.post {
     height: 100%;
   }
 
+  .full { .full(); }
   .inline {
     margin: 0 20px;
     &.right { float: right; }
@@ -67,20 +93,6 @@ body.post {
       img { width: 100%; }
     }
   }
-}
 
-body.mission {
-  h2 { margin-top: 0; }
-  .meta { .clearfix(); }
-  .client img { vertical-align: middle; }
-  
-  .map-wrapper {
-    float: left;
-    padding-right: 10px;
-  }
-  .map { 
-    width: 100px;
-  }
-
-  .content { .clearfix(); }
+  .next-prev-nav { .full(); }
 }

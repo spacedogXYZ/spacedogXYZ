@@ -997,6 +997,9 @@ body.archive ul.posts li:after {
     padding-right: 15px;
   }
 }
+body.archive ul.posts li.left {
+  clear: left;
+}
 body.archive ul.posts li .thumb {
   float: left;
   margin-right: 10px;
@@ -1030,10 +1033,82 @@ body.archive ul.posts li .date {
     width: 100%;
   }
 }
-body.post h3 {
+body.post h2,
+body.mission h2 {
+  margin-top: 0;
+}
+body.post h3,
+body.mission h3 {
   clear: both;
 }
-body.post .videoWrapper {
+body.post .meta,
+body.mission .meta {
+  *zoom: 1;
+}
+body.post .meta:before,
+body.mission .meta:before,
+body.post .meta:after,
+body.mission .meta:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+body.post .meta:after,
+body.mission .meta:after {
+  clear: both;
+}
+body.post .client img,
+body.mission .client img {
+  vertical-align: middle;
+  max-width: 300px;
+}
+body.post .map-wrapper,
+body.mission .map-wrapper {
+  float: left;
+  padding-right: 10px;
+}
+body.post .map,
+body.mission .map {
+  width: 100px;
+}
+body.post .content,
+body.mission .content {
+  *zoom: 1;
+}
+body.post .content:before,
+body.mission .content:before,
+body.post .content:after,
+body.mission .content:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+body.post .content:after,
+body.mission .content:after {
+  clear: both;
+}
+body.post p,
+body.mission p,
+body.post hr,
+body.mission hr {
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  body.post p,
+  body.mission p,
+  body.post hr,
+  body.mission hr {
+    float: left;
+    width: 66.66666666666666%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+body.post .videoWrapper,
+body.mission .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
@@ -1041,73 +1116,76 @@ body.post .videoWrapper {
   padding-top: 25px;
   height: 0;
 }
-body.post .videoWrapper iframe {
+body.post .videoWrapper iframe,
+body.mission .videoWrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-body.post .inline {
+body.post .full,
+body.mission .full {
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  body.post .full,
+  body.mission .full {
+    float: left;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+body.post .inline,
+body.mission .inline {
   margin: 0 20px;
 }
-body.post .inline.right {
+body.post .inline.right,
+body.mission .inline.right {
   float: right;
 }
-body.post .inline.left {
+body.post .inline.left,
+body.mission .inline.left {
   float: left;
 }
-body.post .inline.center {
+body.post .inline.center,
+body.mission .inline.center {
   width: 100%;
   text-align: center;
 }
-body.post div.tag-list {
+body.post div.tag-list,
+body.mission div.tag-list {
   margin-top: 5px;
 }
 @media (max-width: 768px) {
-  body.post .inline {
+  body.post .inline,
+  body.mission .inline {
     margin: 0;
   }
-  body.post .inline img {
+  body.post .inline img,
+  body.mission .inline img {
     width: 100%;
   }
 }
-body.mission h2 {
-  margin-top: 0;
+body.post .next-prev-nav,
+body.mission .next-prev-nav {
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-body.mission .meta {
-  *zoom: 1;
-}
-body.mission .meta:before,
-body.mission .meta:after {
-  content: " ";
-  display: table;
-  line-height: 0;
-}
-body.mission .meta:after {
-  clear: both;
-}
-body.mission .client img {
-  vertical-align: middle;
-}
-body.mission .map-wrapper {
-  float: left;
-  padding-right: 10px;
-}
-body.mission .map {
-  width: 100px;
-}
-body.mission .content {
-  *zoom: 1;
-}
-body.mission .content:before,
-body.mission .content:after {
-  content: " ";
-  display: table;
-  line-height: 0;
-}
-body.mission .content:after {
-  clear: both;
+@media (min-width: 768px) {
+  body.post .next-prev-nav,
+  body.mission .next-prev-nav {
+    float: left;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 section#blastoff h2,
 section#blastoff h3 {
