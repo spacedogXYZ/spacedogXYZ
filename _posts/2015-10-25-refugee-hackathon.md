@@ -35,7 +35,7 @@ Because of the precarious position of many of the participants, we needed to be 
 <a href="https://www.flickr.com/photos/jlevinger/22425772855/"><img src="https://farm1.staticflickr.com/605/22425772855_e32ca767f5_m_d.jpg" alt="No Photos Sign"></a>
 </div>
 
-Afterwards one of the participants asked where the photos might be published, and when I said *un magasin* he was surprised and unhappy. As we discussed his concerns about potential retaliation, I recognized my role in the situation and requested that the journalist delete the photographs, which he did with some dismay. A lesson for future events: make clear to all attendees their rights to privacy and to control their own level of participation, and ensure that the "no photos" signal is visible and respected.
+Afterwards one of the participants asked where the photos might be published, and when I said *un magasin en Allemagne* he was surprised and unhappy. As we discussed his concerns about potential retaliation, I recognized my role in the situation and asked the journalist to delete the photographs, which he did with some dismay. A lesson for future events: reiterate to all attendees their rights to privacy, allow clear control over their own level of participation, and ensure that a "no photos" signal is visible and respected.
 
 After a full day of talking with refugees and volunteers about their experiences, our groups split up to brainstorm solutions. These ideas will be the inputs for designers and coders tomorrow, and it is important that they are rooted in real user needs. Our small group focused on integrating existing information with popular distribution methods. We decided that a multi-channel messaging system is needed to connect refugees to volunteers who can answer basic questions over WhatsApp or SMS, backed by a database with links to existing resources. We later learned that this is similar in concept to [Wefugee.org](http://www.wefugee.org), although I think that the ability to ask questions via text message is important, and I hope to convince more developers of the utility of building tools for mobile first, instead of necessarily apps or websites.
 
@@ -48,3 +48,28 @@ The full group ended up with more than twenty posters laying out various problem
 <div class="thumb two-third center">
 <a href="https://www.flickr.com/photos/jlevinger/22239361370/"><img src="https://farm1.staticflickr.com/716/22239361370_082e9109c5_m_d.jpg"></a>
 </div>
+
+
+### Day 2 - Pitching and Coding
+
+After a night of jetlagged sleep, we returned to the hackathon to hear project pitches and get to work. The crowd was unfortunately signifcantly less diverse than the first day, with very few refugees or women present. The common language also switched to German, which was helpful for some technical conversations, but required some real-time translators for the few English-only speakers remaining.
+
+<div class="thumb inline third right">
+<a href="https://www.flickr.com/photos/jlevinger/22251742449/"><img src="https://farm1.staticflickr.com/715/22251742449_16450254c6_m_d.jpg"></a>
+</div>
+
+Serendipitiously we met my old friend and colleague Chris Csikszentmihalyi who is also in town for the [UnCommons](http://berlinergazette.de/deutsch/uncommons/) conference, and he discussed an idea to build upon the [RootIO](https://spacedog.xyz/mission/rootio) project for the refugee context, and add lightweight audio messaging threads like IRC. Ruth and I focused our efforts on the [LaGeSoNum](http://refugeehackathon.de/en/projekte/lagesonum/) project, which provides a helpful user experience layer to the  waiting board at the State Office of Social Welfare. Currently the board displays numbers for refugees waiting to register themselves for social services, but wait times exceed two weeks and the cryptic numbers are only displayed in the courtyard at a single building. The LaGeSoNum project aims to provide a web interface with mobile notifications so that people do not have to wait in long lines all day.
+
+<div class="thumb inline third right">
+<img src="/static/posts/refugeehackathon/lagesonum-example.jpg">
+</div>
+
+The project currently has a working beta written in the bottle microframework, and has a distributed team of developers from [Coders4Help](http://www.meetup.com/coders4help/) and a German [software company](http://www.minglabs.com) dedicating a user interface designer to the hackathon.
+
+I helped transition the codebase from Bottle.py to Django 1.8, and after helping debug several python path errors, suggested we write a Dockerfile so that all the remote developers can have the same environment. Ruth helped lead threat-modeling and requirements discussions, and worked on a mobile interface for a new site design. It was a fun challenge integrating with a new team, getting everyone on the same page technically, and becoming productive together.
+
+<div class="thumb inline third right">
+<a href="https://www.flickr.com/photos/jlevinger/22250577550/"><img src="https://farm6.staticflickr.com/5646/22250577550_dc9c081b01_m_d.jpg"></a>
+</div>
+
+### Day 3 - 
