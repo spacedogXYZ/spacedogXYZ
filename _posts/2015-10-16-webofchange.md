@@ -16,3 +16,8 @@ I am a natural cynic, and it initially seemed a little too "woo-woo" for me. I a
 The community is both incredibly welcoming and challenging itself to do better. What was once a group of mostly techies in the Canadian environmental movement has become a resiliant organization with many inspiring organizers of color from across the continent. It may have shifted from my own personal focus on technology building, but the reminder that as change-makers we need to "[build with, not for](http://www.buildwith.org)" users provides grounding in the movement.
 
 If you're looking for a space to take a break from the every day to think about building a better future, I highly recommend Web of Change.
+
+<div class="thumb two-third center">
+<a href="https://www.flickr.com/photos/jlevinger/22050362908/"><img src="https://farm1.staticflickr.com/658/22050362908_b6aff6078c_z_d.jpg"></a>
+<h4>Esalen Sunset</h4>
+</div>

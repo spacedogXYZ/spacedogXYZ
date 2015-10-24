@@ -21,7 +21,7 @@ DigitalDemocracy has been working with Achuar and Quechua environmental monitors
 We participated in a four day hackathon in the cloud forest of Peru, where we met local programmers, environmental monitors and activists who are doing the hard work every day. Being immersed in the local context helped American technologists understand the system requirements, particularly offline capabilities, and user empathy for operating a smartphone application in the rainforest. We brainstormed user interfaces, peer-to-peer offline [data-sync protocols](https://github.com/spacedogXYZ/hacktherainforest-data-sync-proposal), and simple technical tools to improve the reliability of the existing system.
 
 <div class="full">
-<div class="inline left"><img src="/static/posts/hacktherainforest/tapirs-eating-oil.jpg"><h4>Tapirs Eating Oil</h4></div>
-<div class="inline left"><img src="/static/posts/hacktherainforest/indigenous-organizing.jpg"><h4>Indigenous Community Organizing</h4></div>
-<div class="inline left"><img src="/static/posts/hacktherainforest/tarapoto-technicos.jpg"><h4>Los Technicos</h4></div>
+<div class="thumb inline left"><img src="/static/posts/hacktherainforest/tapirs-eating-oil.jpg"><h4>Tapirs Eating Oil</h4></div>
+<div class="thumb inline left"><img src="/static/posts/hacktherainforest/indigenous-organizing.jpg"><h4>Indigenous Community Organizing</h4></div>
+<div class="thumb inline left"><img src="/static/posts/hacktherainforest/tarapoto-technicos.jpg"><h4>Los Technicos</h4></div>
 </div>

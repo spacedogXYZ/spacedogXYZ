@@ -22,4 +22,4 @@ Recognizing that social media and story sharing has become a powerful means for 
 
 We took the original hackathon design concept and built a robust platform to accept story submissions over the web, via text message, and through a mobile app. Using rapid development methodologies, we worked in sprints to define initial functionality, add-on features, and integrations with other social media sites. The final application provides a simple interface for administrators to review and edit stories, and publish them to the [StoriesOfSolidarity.org](https://www.StoriesOfSolidarity.org/) site instantly.
 
-<div class="inline left"><img src="/static/posts/storiesofsolidarity/howitworks.png"></div>
+<div class="thumb two-third center"><img src="/static/posts/storiesofsolidarity/howitworks.png"></div>

@@ -57,7 +57,7 @@ body.post, body.mission {
     .clearfix();
   }
 
-  p, hr { 
+  p, ul, hr { 
     .two-third();
   }
 
@@ -75,13 +75,17 @@ body.post, body.mission {
     height: 100%;
   }
 
+  .thumb {
+    img:hover { box-shadow: 5px 5px @orange; }
+  }
+  
   .two-third { .two-third(); }
   .full { .full(); }
+  .center { text-align: center; }
   .inline {
-    margin: 0 20px;
-    &.right { float: right; }
-    &.left { float: left; }
-    &.center { width: 100%; text-align: center; }
+    &.third { .third(); }
+    &.right { @media (min-width: @grid-float-breakpoint) { float: right; }}
+    &.left { @media (min-width: @grid-float-breakpoint) { float: left; }}
   }
 
   div.tag-list {

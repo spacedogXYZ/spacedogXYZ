@@ -1089,6 +1089,8 @@ body.mission .content:after {
 }
 body.post p,
 body.mission p,
+body.post ul,
+body.mission ul,
 body.post hr,
 body.mission hr {
   min-height: 1px;
@@ -1099,6 +1101,8 @@ body.mission hr {
 @media (min-width: 768px) {
   body.post p,
   body.mission p,
+  body.post ul,
+  body.mission ul,
   body.post hr,
   body.mission hr {
     float: left;
@@ -1123,6 +1127,10 @@ body.mission .videoWrapper iframe {
   left: 0;
   width: 100%;
   height: 100%;
+}
+body.post .thumb img:hover,
+body.mission .thumb img:hover {
+  box-shadow: 5px 5px #f27e30;
 }
 body.post .two-third,
 body.mission .two-third {
@@ -1156,22 +1164,37 @@ body.mission .full {
     padding-right: 15px;
   }
 }
-body.post .inline,
-body.mission .inline {
-  margin: 0 20px;
-}
-body.post .inline.right,
-body.mission .inline.right {
-  float: right;
-}
-body.post .inline.left,
-body.mission .inline.left {
-  float: left;
-}
-body.post .inline.center,
-body.mission .inline.center {
-  width: 100%;
+body.post .center,
+body.mission .center {
   text-align: center;
+}
+body.post .inline.third,
+body.mission .inline.third {
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  body.post .inline.third,
+  body.mission .inline.third {
+    float: left;
+    width: 33.33333333333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 768px) {
+  body.post .inline.right,
+  body.mission .inline.right {
+    float: right;
+  }
+}
+@media (min-width: 768px) {
+  body.post .inline.left,
+  body.mission .inline.left {
+    float: left;
+  }
 }
 body.post div.tag-list,
 body.mission div.tag-list {

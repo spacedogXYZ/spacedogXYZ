@@ -14,7 +14,7 @@ client_link: |
 
 ### Context ###
 
-<div class="inline right">
+<div class="thumb inline right">
 <a href="https://www.flickr.com/photos/jlevinger/11255839895/in/set-72157638756850325"><img src="/static/posts/libyan-elections/free-libya.jpg"></a><h4>Revolutionary Grafitti in Tripoli</h4>
 </div>
 
@@ -27,7 +27,7 @@ A new registration system was needed that reflected the scale of Libya's democra
 
 ### Engagement ###
 
-<div class="inline right">
+<div class="thumb inline right">
 <a href="http://data.libyavotes.ly"><img src="/static/posts/libyan-elections/dashboard.png"></a><h4>Open Data Dashboard</h4>
 </div>
 
@@ -38,7 +38,7 @@ We developed a visual [data dashboard](http://data.libyavotes.ly) to show daily 
 
 ### Outcome ###
 
-<div class="inline right">
+<div class="thumb inline right">
 <a href="https://www.flickr.com/photos/jlevinger/11304642336/in/set-72157638757786723"><img src="/static/posts/libyan-elections/libya-votes-poster.jpg"></a><h4>Libya Votes</h4>
 </div>
 
@@ -46,7 +46,7 @@ In all, over 1.5 million people registered to vote over SMS, the first time that
 
 We are proud of being a part of this moment in history, advancing the state of the art of voter registration, and helping build the machinery of a new democracy.
 
-#### Futher Reading ####
+### Futher Reading ###
 - Case Studies by [Reboot](http://reboot.org/case-studies/ict-for-voter-registration-libya/), [Caktus](http://www.caktusgroup.com/blog/2014/06/25/caktus-supporting-libyas-elections-worlds-first-sms-voter-registration-system/)
 - Articles in [TechPresident](http://techpresident.com/news/wegov/25151/libya-rolls-out-worlds-first-mobile-voter-registration-system), [WorldPolicy](http://www.worldpolicy.org/blog/2014/06/25/libyas-election-ushers-new-voter-tech), [Al Jazeera](http://stream.aljazeera.com/story/201406242254-0023874)
 - Ignite Presentation [slides](http://www.levinger.net/josh/files/LibyaVoterReg.pdf)
