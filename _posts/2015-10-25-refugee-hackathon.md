@@ -50,7 +50,7 @@ The full group ended up with more than twenty posters laying out various problem
 </div>
 
 
-### Day 2 - Pitching and Coding
+### Day 2 - Pitching and Prototyping
 
 After a night of jetlagged sleep, we returned to the hackathon to hear project pitches and get to work. The crowd was unfortunately signifcantly less diverse than the first day, with very few refugees or women present. The common language also switched to German, which was helpful for some technical conversations, but required some real-time translators for the few English-only speakers remaining.
 
@@ -72,4 +72,13 @@ I helped transition the codebase from Bottle.py to Django 1.8, and after helping
 <a href="https://www.flickr.com/photos/jlevinger/22250577550/"><img src="https://farm6.staticflickr.com/5646/22250577550_dc9c081b01_m_d.jpg"></a>
 </div>
 
-### Day 3 - 
+### Day 3 - Coding and Presenting
+
+Our team met at 10am a little smaller after a late night, but firmly committed to our code goals for the weekend. In little more than 24 hours, we finished the code transition, integrated a responsive redesign, and prototyped user notifications via email, SMS, and Telegram. It was a testament to the friendliness of the group, the strength of the idea, and the power of Club Mate that we continued to hack right through meals and after the deadline.
+
+<div class="thumb inline third right">
+<a href="https://www.flickr.com/photos/jlevinger/21844317074/"><img src="https://farm6.staticflickr.com/5698/21844317074_6f1924eceb_m_d.jpg" alt="Working Hard"></a>
+</div>
+
+Ruth and Peter gave our progress presentation to the large group, and Felix did an interview that may have ended up on the nightly news. In all, we made significant progress against acheivable goals, with hopefully immediate impact on the refugees waiting for weeks at LaGeSo.
+
