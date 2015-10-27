@@ -33,5 +33,9 @@ $(document).ready(function() {
   if (new Date() > last_date) {
     $('h2.availability a').text('Booking now for new missions');
   }
+
+  // scroll down to logo top
+  var logo_top = $('h1#logo').offset().top - 30;
+  $('body').delay(1000).animate({scrollTop : logo_top }, 2000, 'swing');
 });
 

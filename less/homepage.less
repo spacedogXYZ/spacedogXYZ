@@ -2,6 +2,11 @@
 /* Spacedog homepage styles */
 /****************************/
 
+@background-orange: #783F17;
+@background-blue: #0A3E52;
+@background-gray: #58595B;
+@background-purple: #35353B;
+
 body.index{
 
 header {
@@ -56,20 +61,26 @@ section#splash {
   }
 }
 
-h2.availability {
+h2.bar {
   width: 100%;
   margin: 0 auto;
   padding: 15px 0;
-  background: #0A3E52;
-  a {
-    color: @white;
-    &:hover {
-      color: @orange;
-    }
+  
+  span {
     display: inline-block;
     text-align: center;
     width: 100%;
   }
+
+  a { 
+    color: @white;
+    &:hover {
+      color: @orange;
+    }
+  }
+
+  &.availability { background: @background-gray; }
+  &.latest_post { background: @background-blue; }
 }
 
 section:not(#splash).fullwidth {
@@ -87,7 +98,7 @@ section:not(#splash).fullwidth {
 section#how-we-work {
   margin-top: 150px;
 
-  background-color: #783F17;
+  background-color: @background-orange;
   background-image: url('/static/splash/display-orange.png');
 
   &> ul {
@@ -135,7 +146,7 @@ section#how-we-work {
 }
 
 section#testimonials {
-  background-color: #0A3E52;
+  background-color: @background-blue;
   background-image: url('/static/splash/display-blue.png');
 
   &> ul {
@@ -183,7 +194,7 @@ section#testimonials {
 }
 
 section#results {
-  background-color: #58595B;
+  background-color: @background-gray;
   background-image: url('/static/splash/display-gray.png');
 
   ul {
@@ -210,7 +221,7 @@ section#results {
 }
 
 section#team {
-  background-color: #35353B;
+  background-color: @background-purple;
   background-image: url('/static/splash/display-purple.png');
 
   ul { 

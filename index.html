@@ -34,9 +34,12 @@ body_class: index
 ---
 {% for availability in site.data.schedule %}
 {% if forloop.last %}
-<h2 class="availability"><a href="/blastoff/" data-date="{{availability.date}}">{{availability.headline}}</a></h2>
+<h2 class="bar availability"><span><a href="/blastoff/" data-date="{{availability.date}}">{{availability.headline}}</a></span></h2>
 {% endif %}
 {% endfor %}
+
+{% assign latest_post = site.posts.first %}
+<h2 class="bar latest_post"><span>Mission Report: <a href="{{latest_post.url}}" class="underline">{{latest_post.title}}</a> {{latest_post.date|date_to_string}}</span></h2>
 
 <section id="how-we-work" class="fullwidth">
 <h2>How We Work</h2>
