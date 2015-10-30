@@ -49,6 +49,7 @@ The full group ended up with more than twenty posters laying out various problem
 <a href="https://www.flickr.com/photos/jlevinger/22239361370/"><img src="https://farm1.staticflickr.com/716/22239361370_082e9109c5_m_d.jpg"></a>
 </div>
 
+<br/>
 
 ### Day 2 - Pitching and Prototyping
 
@@ -61,7 +62,7 @@ After a night of jetlagged sleep, we returned to the hackathon to hear project p
 Serendipitiously we met my old friend and colleague [Chris CsikszentmihalyI](http://edgyproduct.tumblr.com) who is also in town for the [UnCommons](http://berlinergazette.de/deutsch/uncommons/) conference, and he discussed an idea to build upon the [RootIO](https://spacedog.xyz/mission/rootio) project for the refugee context, and add lightweight audio messaging threads like IRC. Ruth and I focused our efforts on the [LaGeSoNum](http://refugeehackathon.de/en/projekte/lagesonum/) project, which provides a helpful user experience layer to the  waiting board at the State Office of Social Welfare. Currently the board displays numbers for refugees waiting to register themselves for social services, but wait times exceed two weeks and the cryptic numbers are only displayed in the courtyard at a single building. The LaGeSoNum project aims to provide a web interface with mobile notifications so that people do not have to wait in long lines all day.
 
 <div class="thumb inline third right">
-<img src="/static/posts/refugeehackathon/lagesonum-example.jpg">
+<a href="/static/posts/refugeehackathon/lageso-display.jpg"><img src="/static/posts/refugeehackathon/lageso-display-sm.jpg"></a>
 </div>
 
 The project currently has a working beta written in the bottle microframework, and has a distributed team of developers from [Coders4Help](http://www.meetup.com/coders4help/) and a German [software company](http://www.minglabs.com) dedicated a user interface designer to the hackathon.
