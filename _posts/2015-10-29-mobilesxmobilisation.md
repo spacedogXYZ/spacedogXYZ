@@ -28,18 +28,18 @@ Mobile doesn't just mean smartphone apps and responsive website, it can also mea
 
 #### Tools ####
 
-* [Rootio](http://rootio.org) - a low-cost "solution stack" for peer-oriented radio networks, we [worked on](/mission/rootio/) in 2013. Currently in use in Uganda and Kenya.
+* [Rootio](http://rootio.org) is a low-cost "solution stack" for peer-oriented radio networks, we [worked on](/mission/rootio/) in 2013. Currently in use in Uganda and Kenya.
 * DigitalDemocracy's offline data capture tools prototyped at [HackTheRainforest](/mission/hacktherainforest/)
-* IVR and call-in campaign tools like [CallPower](/mission/callpower/) and [Radio Sangarsh](http://www.radiosangharsh.org)
-* [Field Papers](http://fieldpapers.org) - useful tools to create an atlas and add data to OpenStreetMap via the oldest of mobile technologies, paper.
-* [FireChat](http://opengarden.com/about-firechat) - a p2p chat tool that works without a network connection. Saw [wide usage](http://www.nytimes.com/2014/10/06/technology/hong-kong-protests-propel-a-phone-to-phone-app-.html) during the Hong Kong pro-democracy protests in Hong Kong, and has promoted app distribution via radio advertisements before disasters hit.
+* Interactive voice and call-in campaign tools like [CallPower](/mission/callpower/) and [Radio Sangarsh](http://www.radiosangharsh.org)
+* [Field Papers](http://fieldpapers.org) provies useful tools to create an atlas and add data to OpenStreetMap via the oldest of mobile technologies, paper.
+* [FireChat](http://opengarden.com/about-firechat) is a p2p chat tool that works without a network connection. Saw [wide usage](http://www.nytimes.com/2014/10/06/technology/hong-kong-protests-propel-a-phone-to-phone-app-.html) during the Hong Kong pro-democracy protests in Hong Kong, and has promoted app distribution via radio advertisements before disasters hit.
 * Data collection of scannable paper forms. [Captricity](http://captricity.org/) provides optical character recognition of handwritten documents and claims 99%+ accuracy.
 * Amnesty Intl's [Panic Button](https://panicbutton.io) provides human rights campaigners with an easy-to-use alarm button on their smartphone. They created a [card game](http://the-engine-room.github.io/PACT-kit/) to teach threat assesment methodologies, which actually had better usage numbers than the app.
 
 #### Techniques ####
 
-* Deliver petitions or GOTV messages via postcard. Used in Virginia election by [EveryTown](https://postcardslogin.everytown.org/), and built by [Amicus](http://amicushq.com).
-* Automated event reminders via SMS. Something like [AppointmentReminder](https://www.appointmentreminder.org/) for campaigns? Including calendar invites on campaign emails might do the trick.
+* Deliver petitions or GOTV messages via postcard. Used in Virginia 2015 election by [EveryTown](https://postcardslogin.everytown.org/), with voter-files from [Amicus](http://amicushq.com).
+* Automated event reminders via SMS. Something like [AppointmentReminder](https://www.appointmentreminder.org/) for campaigns? Including calendar invite files in campaign emails might do the trick.
 * [\#FridayDiscoBackup](https://twitter.com/FriDiscoBackup) is a source of peer encouragement for necessary tasks, and of course good tunes for the #NPTech crowd.
 * Print messages on consumables: "wash your hands" [on roti](http://articles.economictimes.indiatimes.com/2013-02-08/news/36994106_1_kumbh-mela-lifebuoy-rotis), missing persons messages [on tortillas](http://www.huffingtonpost.com/2012/11/13/mexico-missing-people-tortilla_n_2124314.html)
 * Clean-wash dirty sidewalks instead of chalking or flyering
