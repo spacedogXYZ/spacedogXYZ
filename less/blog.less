@@ -37,7 +37,7 @@ body.archive {
 
 body.post, body.mission {
   h2 { margin-top: 0; }
-  h3 { clear: both; }
+  h3, h4 { float: left; width: 100%; clear: both; }
 
   .meta { .clearfix(); }
   .client img {
@@ -59,6 +59,10 @@ body.post, body.mission {
 
   p, ul, hr { 
     .two-third();
+  }
+
+  ul {
+    list-style-type: circle;
   }
 
   .videoWrapper {
