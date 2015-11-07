@@ -2,6 +2,7 @@ from kartograph import Kartograph
 import csv, sys
 
 MAPS = {
+    'mit': {'iso': ['USA'], 'location': {'Cambridge': [42.360664, -71.087535]}, 'proj': 'laea-usa'},
     'israel-palestine': {'iso': ['PSE', 'ISR'], 'location': {'Ramallah': [31.9, 35.2]}},
     'oakland': {'iso': ['USA'], 'location': {'Oakland': [37.804444, -122.270833]}, 'proj': 'laea-usa'},
     'uganda': {'iso': ['UGA'], 'location': {'Kampala': [0.313611, 32.581111]}},
