@@ -3,7 +3,7 @@ layout: post
 title: Making Maps
 description: Generating custom vector maps using Kartograph
 category: blog
-location: Oakland, Calif
+location: Oakland, California
 image: /static/posts/kartograph-logo.png
 ---
 The country maps that adorn our [mission reports](/mission/) weren't drawn by hand, they were rendered to SVG with the excellent [Kartograph](http://kartograph.org) framework. While we initially considered grabbing country borders off Wikipedia and modifying them with Illustrator to fit our design, the thought of doing that for each blog update didn't please us. If you're going to do something more than twice, the software engineer thought, why not write the code to do it *N* times?

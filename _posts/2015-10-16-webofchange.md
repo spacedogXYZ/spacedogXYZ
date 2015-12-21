@@ -3,7 +3,7 @@ layout: post
 title: Web of Change
 description: Connecting diverse leaders working at the frontiers of technology and social change.
 category: blog
-location: Big Sur, CA; Hollyhock, BC; Balcones, TX
+location: Big Sur, California; Hollyhock, British Columbia; Balcones, Texas
 client_link: <a href="http://webofchange.com"><img src="/static/posts/webofchange/webofchange.png" alt="Web of Change"></a>
 map: /static/maps/svg/webofchange.svg
 image: /static/posts/webofchange/esalen-rainbow.jpg

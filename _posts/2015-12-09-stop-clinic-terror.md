@@ -3,7 +3,7 @@ layout: mission
 title: Stop Clinic Terror
 description: A visualization of terrorist attacks on womens health clinics in the US from 1995-2015
 category: mission
-location: Oakland, CA
+location: Oakland, California
 client_link: <a href="http://www.weareultraviolet.org/"><img src="/static/posts/stopclinicterror/uv-logo.png" alt="Ultraviolet logo"></a>
 map: /static/maps/svg/oakland.svg
 image: /static/posts/stopclinicterror/square.png
