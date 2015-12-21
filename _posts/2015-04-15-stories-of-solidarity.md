@@ -19,6 +19,10 @@ Recognizing that social media and story sharing has become a powerful means for 
 
 ### Engagement ###
 
-We took the original hackathon design concept and built a robust platform to accept story submissions over the web, via text message, and through a mobile app. Using rapid development methodologies, we worked in sprints to define initial functionality, add-on features, and integrations with other social media sites. The final application provides a simple interface for administrators to review and edit stories, and publish them to the [StoriesOfSolidarity.org](https://www.StoriesOfSolidarity.org/) site instantly.
+We took the original hackathon design concept and built a robust platform to accept story submissions over the web, via text message, and through a mobile app. Using rapid development methodologies, we worked in sprints to define initial functionality, add-on features, and build integrations with other social media sites. The final application provides a simple interface for administrators to review and edit stories, and publish them to the [StoriesOfSolidarity.org](https://www.StoriesOfSolidarity.org/) site instantly.
 
-<div class="thumb two-third center"><img src="/static/posts/storiesofsolidarity/howitworks.png"></div>
+### Update - December 2015 ###
+
+Continuing our work with the UC Davis team, we implemented a beautiful new redesign that enables searching for stories by content or geography, and can include interactive infographics to add information in context.
+
+<div class="inline two-third center"><img src="/static/posts/storiesofsolidarity/map-redesign.png"></div>

@@ -1146,6 +1146,10 @@ body.mission .videoWrapper iframe {
   width: 100%;
   height: 100%;
 }
+body.post img,
+body.mission img {
+  max-width: 100%;
+}
 body.post .thumb img:hover,
 body.mission .thumb img:hover {
   box-shadow: 5px 5px #f27e30;
