@@ -86,7 +86,13 @@ body.post, body.mission {
   }
   
   .two-third { .two-third(); }
-  .full { .full(); }
+  .full {
+    .full();
+    p {
+      width: 100%;
+      padding-left: 0;
+      }
+  }
   .center { text-align: center; }
   .inline {
     &.third { .third(); }

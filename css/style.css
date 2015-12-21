@@ -1186,6 +1186,11 @@ body.mission .full {
     padding-right: 15px;
   }
 }
+body.post .full p,
+body.mission .full p {
+  width: 100%;
+  padding-left: 0;
+}
 body.post .center,
 body.mission .center {
   text-align: center;
@@ -1247,6 +1252,11 @@ body.mission .next-prev-nav {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+body.post .next-prev-nav p,
+body.mission .next-prev-nav p {
+  width: 100%;
+  padding-left: 0;
 }
 section#blastoff h2,
 section#blastoff h3 {
