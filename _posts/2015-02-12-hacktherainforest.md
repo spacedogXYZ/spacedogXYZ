@@ -4,7 +4,6 @@ title: HackTheRainforest
 description: Gathering indigenous environmental monitors, technologists and civil society organizations to address urgent environmental problems threatening communities across the Amazon
 category: mission
 location: Tarapoto, Peru
-date_month_only: true
 map: /static/maps/svg/peru.svg
 image: /static/posts/hacktherainforest/monitor-gps.jpg
 client_link: <a href="http://digital-democracy.org"><img src="/static/clients/digidem.png" alt="DigitalDemocracy"></a>

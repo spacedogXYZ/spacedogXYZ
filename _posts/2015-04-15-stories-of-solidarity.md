@@ -4,7 +4,6 @@ title: StoriesOfSolidarity
 description: A mobile story sharing platform that encourages workers in the low-wage, precarious workforce to build new forms of solidarity
 category: mission
 location: Davis, California
-date_month_only: true
 map: /static/maps/svg/oakland.svg
 image: /static/posts/storiesofsolidarity/sos-logo.png
 client_link: <a href="http://arts.ucdavis.edu/faculty-profile/jesse-drew"><img src="/static/clients/ucdavis-cinema-digital-media.png" alt="UC Davis - Cinema and Digital Media Program"></a>

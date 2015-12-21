@@ -4,7 +4,6 @@ title: Libyan Elections
 description: Three months, 1.5 million voters registered with the first all-SMS system in the world, building the foundation for a new democracy
 category: mission
 location: Tripoli, Libya
-date_month_only: true
 map: /static/maps/svg/libya.svg
 image: /static/posts/libyan-elections/libya-votes-poster.jpg
 client_link: |

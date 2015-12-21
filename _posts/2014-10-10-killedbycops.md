@@ -4,7 +4,6 @@ title: KilledByCops
 description: Data visualization of the crisis of police violence in America, telling individual stories on a nationwide map
 category: mission
 location: Oakland, CA
-date_month_only: true
 map: /static/maps/svg/oakland.svg
 image: /static/posts/killedbycops/logo-square.png
 client_link: <a href="http://colorofchange.org">ColorOfChange.org</a>

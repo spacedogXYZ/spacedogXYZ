@@ -24,7 +24,7 @@ body_class: archive
         <h3><a href="{{post.url}}">{{ post.title }}</a></h3> 
         <div class="date">
           {% if post.date_string %} {{post.date_string}} {% else %}
-            {% if post.date_month_only %} {{ post.date | date: '%B, %Y' }}
+            {% if page.date_month_only %} {{ post.date | date: '%B %Y' }}
             {% else %} {{ post.date | date_to_long_string }} {% endif %}
           {% endif %}
         </div>

@@ -4,7 +4,6 @@ title: CallPower
 description: Open source tool to connect people to power with their phones, built with the sponsorship of the Electronic Frontier Foundation
 category: mission
 location: San Francisco, California
-date_month_only: true
 map: /static/maps/svg/oakland.svg
 image: /static/posts/callpower/logo-square.jpg
 client_link: <a href="https://eff.org"><img src="/static/clients/eff.png" alt="Electronic Frontier Foundation"></a>
