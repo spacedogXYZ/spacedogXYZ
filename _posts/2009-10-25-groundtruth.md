@@ -5,7 +5,7 @@ description: Field research on the occupation in Israel and Palestine
 category: mission
 location: Ramallah, PS
 map: /static/maps/svg/israel-palestine.svg
-image: /static/posts/medialab/gt-settlements.png
+image: /static/posts/medialab/qalandia-checkpoint.jpg
 client_link: <a href="http://civic.mit.edu/"><img src="/static/posts/medialab/civic-logo-bg.png" alt="MIT Center for Civic Media"></a>
 
 ---
