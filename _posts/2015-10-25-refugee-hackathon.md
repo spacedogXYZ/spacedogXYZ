@@ -5,7 +5,7 @@ description: Helping refugees one line of code at a time
 category: mission
 location: Berlin, Germany
 map: /static/maps/svg/berlin.svg
-image: /static/posts/refugeehackathon/heart.png
+image: /static/posts/refugeehackathon/logo-small.png
 client_link: <a href="http://refugeehackathon.de"><img src="/static/posts/refugeehackathon/heart.png" alt="Refugee Hackathon"></a>
 ---
 
