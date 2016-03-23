@@ -1,3 +1,5 @@
+{% capture body_class %}{{ layout.body_class }} {{ page.body_class}}{% endcapture %}
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,7 +17,7 @@
     {% if page.top_script%}{{page.top_script}}{%endif%}
   </head>
 
-  <body {%if layout.body_class%}class="{{layout.body_class}}"{%endif%}>
+  <body class="{{body_class}}">
     {% if page.header %}{{page.header}}{%else%}
     <header><h1 id="logo"><a href="/">Space<img src="/static/icons/spacedog.png" alt="d" class="icon"/>og</a>
       {% if page.extra_header%}<span class="extra_header">{{page.extra_header}}</span>{%endif%}
