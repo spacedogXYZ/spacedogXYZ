@@ -26,8 +26,10 @@ To improve the sharing experience, we worked with developers at Fission Strategi
 
 _600,000 voters_ registered with the new form, and average completion time went down by half from the previous design. Over 160 partner organizations embedded the form on their website, and were able to sign up new registrants for their continued mobilization efforts.
 
-<div class="inline center">
-<img src="/static/posts/rtv/map.png" style="vertical-align: top;">
-<img src="/static/posts/rtv/form.png">
+<div class="full center">
+    <a href="https://register2.rockthevote.com">
+        <img src="/static/posts/rtv/map.png" style="vertical-align: top;" class="third">
+        <img src="/static/posts/rtv/form.png" class="third">
+    </a>
 </div>
 

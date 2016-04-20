@@ -31,7 +31,7 @@ VirtualGaza gathered 77 stories from 29 authors, in 32 neighborhoods and 5 citie
 The following summer, I applied for permission to travel to Gaza and continue working on the ground, but was denied an entry permit. I instead spent several weeks in Ramallah and Jerusalem, learning from and building other technologies to resist the occupation; more at [GroundTruth](/mission/groundtruth/).
 
 The full site is unfortunately no longer online, but an archived video tour is available:
-<div class="videoWrapper">
+<div class="videoWrapper two-third">
 <video id="vg-video" class="video-js vjs-default-skin vjs-big-play-centered" controls width="490" height="360" data-setup="{}" poster="https://photos-1.dropbox.com/t/2/AAC60FvLXHh5bIt7b5u0hFOO2i5LxzXiSKep8Jq7woLlpA/12/23928/jpeg/1024x768/2/1446930000/0/2/video-tour-30sec.mov/CPi6ASABIAIgAyAEIAUgBygBKAIoBw/1wAxIUVXTAk1GxzFdN8hBIbupTm6pKN1675tfgEwSl4%2C4dEJcTAG32SoCjeUbUrmkUDu8_yGI0I74RQly8CFfzU?size=1280x960&amp;size_mode=2" src="https://www.dropbox.com/sm/hls_playlist/s/ush98pw21hmhfa1/video-tour-30sec.mov?secure_hash="><source src="https://www.dropbox.com/sm/hls_playlist/s/ush98pw21hmhfa1/video-tour-30sec.mov?secure_hash=" type="application/vnd.apple.mpegurl"></video>
 </div>
 

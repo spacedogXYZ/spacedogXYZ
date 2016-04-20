@@ -8,19 +8,18 @@
 
 #slides .slidesjs-previous {
   margin-right: 5px;
-  float:left;
+  float: left;
   border: none;
 }
 #slides .slidesjs-next {
   margin-right: 5px;
-  float:left;
+  float: right;
   border: none;
 }
 
 .slidesjs-pagination {
-    margin:6px 0 0;
-    float: right;
-    list-style: none;
+    margin: 6px 40%;
+    list-style-type: none !important;
 }
 
 .slidesjs-pagination li {

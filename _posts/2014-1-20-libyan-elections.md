@@ -13,7 +13,7 @@ client_link: |
 
 ### Context ###
 
-<div class="thumb inline right">
+<div class="thumb inline third right">
 <a href="https://www.flickr.com/photos/jlevinger/11255839895/in/set-72157638756850325"><img src="/static/posts/libyan-elections/free-libya.jpg"></a><h4>Revolutionary Grafitti in Tripoli</h4>
 </div>
 
@@ -26,7 +26,7 @@ A new registration system was needed that reflected the scale of Libya's democra
 
 ### Engagement ###
 
-<div class="thumb inline right">
+<div class="thumb inline third right">
 <a href="http://data.libyavotes.ly"><img src="/static/posts/libyan-elections/dashboard.png"></a><h4>Open Data Dashboard</h4>
 </div>
 
@@ -37,7 +37,7 @@ We developed a visual [data dashboard](http://data.libyavotes.ly) to show daily 
 
 ### Outcome ###
 
-<div class="thumb inline right">
+<div class="thumb inline third right">
 <a href="https://www.flickr.com/photos/jlevinger/11304642336/in/set-72157638757786723"><img src="/static/posts/libyan-elections/libya-votes-poster.jpg"></a><h4>Libya Votes</h4>
 </div>
 

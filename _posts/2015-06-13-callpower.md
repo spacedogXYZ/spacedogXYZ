@@ -37,7 +37,7 @@ The CallPower is designed to be easy to use: just record your message in the bro
 
 You can try a demo at [CallPower.org](http://callpower.org), we will provide a hosted version for a reasonable monthly fee, and the code can be downloaded from [GitHub](https://github.com/spacedogXYZ/call-power).
 
-<div id="slides" class="two-third">
+<div id="slides" class="two-third center">
     <img src="/static/posts/callpower/screenshots/1-dashboard.png">
     <img src="/static/posts/callpower/screenshots/2-create.png">
     <img src="/static/posts/callpower/screenshots/3-1-audio.png">
@@ -46,6 +46,6 @@ You can try a demo at [CallPower.org](http://callpower.org), we will provide a h
     <img src="/static/posts/callpower/screenshots/3-4-versions.png">
     <img src="/static/posts/callpower/screenshots/4-launch.png">
 
-    <a href="#" class="slidesjs-previous slidesjs-navigation">&larr; Previous</a>
-    <a href="#" class="slidesjs-next slidesjs-navigation">Next &rarr;</a>
+    <a href="#" class="slidesjs-previous slidesjs-navigation inline left">&larr; Previous</a>
+    <a href="#" class="slidesjs-next slidesjs-navigation inline right">Next &rarr;</a>
 </div>
