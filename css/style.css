@@ -1013,6 +1013,7 @@ body.archive ul.posts li.left {
 body.archive ul.posts li .thumb {
   float: left;
   margin-right: 10px;
+  min-height: 150px;
 }
 body.archive ul.posts li .thumb img {
   max-width: 150px;
@@ -1039,8 +1040,14 @@ body.archive ul.posts li .date {
   body.archive ul.posts li h3 {
     clear: left;
   }
-  body.archive ul.posts li .thumb img {
+  body.archive ul.posts li .thumb {
+    min-height: 100%;
     width: 100%;
+  }
+  body.archive ul.posts li .thumb img {
+    margin: 20px auto 10px auto;
+    display: block;
+    max-width: 75%;
   }
 }
 body.post h2,
@@ -1131,6 +1138,7 @@ body.mission ul {
 }
 body.post .videoWrapper,
 body.mission .videoWrapper {
+  clear: left;
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
@@ -1139,7 +1147,9 @@ body.mission .videoWrapper {
   height: 0;
 }
 body.post .videoWrapper iframe,
-body.mission .videoWrapper iframe {
+body.mission .videoWrapper iframe,
+body.post .videoWrapper .video-js,
+body.mission .videoWrapper .video-js {
   position: absolute;
   top: 0;
   left: 0;

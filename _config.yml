@@ -6,8 +6,6 @@ collections:
     output: false
 
 gems:
-  - jekyll-redirect-from
   - jekyll-sitemap
-  - jemoji
 
 exclude: ['node_modules']

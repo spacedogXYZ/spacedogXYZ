@@ -17,8 +17,8 @@ body_class: archive
     {% assign posts = site.posts  %}
   {% endif %}
 
-  {% assign ordered_posts = (posts | sort:"order")  %}
-  {% for post in ordered_posts %}
+  {% assign ordered_posts = (posts | sort:"date")  %}
+  {% for post in ordered_posts reversed %}
     <li class="{% cycle 'left', 'right' %}">
         {%if post.image %}<div class="thumb"><a href="{{post.url}}"><img src="{{post.image}}"></a></div>{%endif%}
         <h3><a href="{{post.url}}">{{ post.title }}</a></h3> 
