@@ -17,6 +17,16 @@ function resetOverlay() {
     height: fullWidth,
   });
 }
+
+function scrollIntro() {
+  if ($(window).scrollTop() !== 0) {
+    return false;
+  } else {
+    // animate scroll down to logo top
+    var logo_top = $('h1#logo').offset().top - 30;
+    $(window).scrollTop(0);
+    $('body').delay(1000).animate({scrollTop : logo_top }, 2000, 'swing');
+  }
 }
 
 
@@ -49,8 +59,7 @@ $(document).ready(function() {
     $('h2.availability a').text('Booking now for new missions');
   }
 
-  // scroll down to logo top
-  var logo_top = $('h1#logo').offset().top - 30;
-  $('body').delay(1000).animate({scrollTop : logo_top }, 2000, 'swing');
+  // delay scrollIntro just momentarily, so window top is set before we scroll
+  window.setTimeout(scrollIntro, 10);
 });
 
