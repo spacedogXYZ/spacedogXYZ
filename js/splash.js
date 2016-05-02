@@ -7,6 +7,16 @@ function resetOverlay() {
   $('#rollover').attr({height: fullHeight, width: fullWidth});
 
   $('.fullwidth').css({height: fullHeight});
+
+  // setup testimonial slider
+  $("#testimonials ul").slidesjs({
+    navigation: { active: false, },
+    pagination: { active: false },
+    play: { active: false, auto: true },
+    width: fullHeight,
+    height: fullWidth,
+  });
+}
 }
 
 
@@ -15,7 +25,7 @@ $(document).ready(function() {
   $(window).resize(resetOverlay);
   resetOverlay();
 
-  
+  // responsive image map
   $('img[usemap]').rwdImageMaps();
 
   // bind rollover events
@@ -26,6 +36,11 @@ $(document).ready(function() {
   });
   $('area').on('mouseout', function() {
     $('img#rollover').attr({src: '/static/splash/transparent.png'});
+  });
+
+  // randomize testimonial start
+  $("#testimonials ul").slidesjs({
+    start: Math.floor(Math.random()* $("#testimonials ul li").length),
   });
 
   // update schedule

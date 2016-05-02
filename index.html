@@ -29,6 +29,7 @@ end_script: |
   <area shape="poly" alt="" title="" coords="960,756,970,710,990,680,1018,676,992,626,1000,564,1028,536,1052,526,1092,532,1124,554,1138,578,1146,620,1130,660,1116,668,1120,806,992,808,964,774,964,774,964,774" target="_self" href="#team" />
   </map>
   <script src='/js/jquery.rwdImageMaps.js'></script>
+  <script src="/js/jquery.slides.js"></script>
   <script src='/js/splash.js'></script>
 body_class: index
 ---
@@ -104,7 +105,7 @@ body_class: index
 <h2>Who Likes Our Work</h2>
 <ul class="wrapper">
   {% for t in site.data.testimonials %}
-  <li class="{% cycle 'left','right' %}"><div>
+  <li><div class="testimonial">
       {% if t.quote%}<span class="quote">{{t.quote}}</span>{%endif%}
       {% if t.more%}<span class="more">{{t.more}}</span>{%endif%}
       <span class="person">

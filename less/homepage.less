@@ -149,46 +149,38 @@ section#testimonials {
   background-color: @background-blue;
   background-image: url('/static/splash/display-blue.png');
 
-  &> ul {
-    .make-row();
+  .testimonial {
+    width: 75%;
+    margin: 0 auto;
 
-    &> li {
-      .make-column(6);
+    padding: 20px;
+    color: @black;
+    background: #72B1C8;
+   .box-shadow(5px 5px #0E5D7A);
+    margin-bottom: 20px;
+  }
 
-      &.left {
-        clear: left;
-      }
-      div {
-        padding: 20px;
-        color: @black;
-        background: #72B1C8;
-       .box-shadow(5px 5px #0E5D7A);
-        margin-bottom: 20px;
-      }
-
-
-      span.quote {
-        font-size: @font-size-large;
-        font-style: bold;
-        &:before {
-          content: "\201C";
-          margin-right: 2px;
-        }
-        &:after {
-          content: "\201D";
-          margin-left: 2px;
-        }
-      }
-      span.more {
-        display: block;
-        font-size: @font-size-small;
-      }
-      span.person {
-        .text {
-          display: block;
-          text-align: right;
-        }
-      }
+  .quote {
+    font-size: @font-size-x-large;
+    font-style: bold;
+    &:before {
+      content: "\201C";
+      margin-right: 2px;
+    }
+    &:after {
+      content: "\201D";
+      margin-left: 2px;
+    }
+  }
+  .more {
+    display: block;
+    font-size: @font-size-medium;
+    margin: 5px auto 20px auto;
+  }
+  .person {
+    .text {
+      display: block;
+      text-align: right;
     }
   }
 }

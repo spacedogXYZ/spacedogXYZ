@@ -5,10 +5,16 @@
   more: I will never forget when he moved up our site launch by <em>months</em> so we could get to work.
 
 - name: Matt Nelson
-  title: Organizing Director
-  org: ColorOfChange.org
   quote: Colleague and comrade
+  title: Managing Director
+  org: Presente.org
   more: Works with empathy and care to help us make change.
+
+- name: Debra Cleaver
+  title: Founder
+  org: Vote.org
+  quote: Will be in the trenches with you
+  more: Cares more about users and quality product than almost any other engineer I've met.
 
 - name: Paul Ferris
   title: Campaign Director
@@ -21,3 +27,9 @@
   org: Caktus Group
   quote: Extraordinary, invaluable addition
   more: Any project would be hard pressed to find a more thoughtful or insightful technologist who gives a damn.
+
+- name: Alia McKee
+  title: Principal
+  org: Sea Change Stragies
+  quote: Wow-ed me with strategic insight
+  more: His ability to describe how tech works in a non-techy way would be an asset to any team looking for a senior tech partner.
