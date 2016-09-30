@@ -27,4 +27,4 @@ The system is built on Node.js and Python, uses Twilio to send SMS messages and 
 
 Check it out below:
 
-<iframe src="https://www.hello.vote/iframe/?disclosureColor=ff8800&hueShift=0" allowtransparency="1" frameborder="0" class="full" style="height:400px;"></iframe>
+<iframe src="https://www.hello.vote/iframe/?disclosureColor=ff8800&hueShift=0" allowtransparency="1" frameborder="0" class="full" style="height:450px; width:400px;"></iframe>
