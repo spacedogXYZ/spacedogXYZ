@@ -16,7 +16,8 @@ MAPS = {
         'Cortes Island': [50.116667, -124.966667],
         'Esalen': [36.122840, -121.636722],
         }
-    }
+    },
+    'worcester': {'iso': ['USA'], 'location': {'Worcester': [42.273127, -71.804324]}, 'proj': 'laea-usa'},
 }
 
 config = {
