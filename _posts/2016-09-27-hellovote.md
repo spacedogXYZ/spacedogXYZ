@@ -23,6 +23,8 @@ We launched in the week before National Voter Registration Day to great press an
 
 ### Technology ###
 
+The system is built on Node.js and Python, uses Twilio to send SMS messages and Facebook notifications, and is hosted on Heroku. It will be open sourced after the election, pending a legal review.
+
 Check it out below:
 
-<iframe src="https://www.hello.vote/iframe/" allowtransparency="1" frameborder="0" style="height:400px; width: 400px;"></iframe>
+<iframe src="https://www.hello.vote/iframe/?disclosureColor=ff8800&hueShift=0" allowtransparency="1" frameborder="0" class="full" style="height:400px;"></iframe>
