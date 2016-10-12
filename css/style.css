@@ -990,6 +990,7 @@ body.archive ul.posts li .thumb img:hover {
   box-shadow: 5px 5px #f27e30;
 }
 body.archive ul.posts li h3 {
+  float: none;
   margin: 0;
 }
 body.archive ul.posts li h3 a {
@@ -1154,6 +1155,7 @@ body.mission .full {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  clear: left;
 }
 @media (min-width: 768px) {
   body.post .full,
@@ -1221,6 +1223,7 @@ body.mission .next-prev-nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  clear: left;
 }
 @media (min-width: 768px) {
   body.post .next-prev-nav,
