@@ -1,3 +1,10 @@
+- title: HelloVote
+  client: FightForTheFuture
+  date: Election 2016
+  stat: Register to vote with just 10 text messages. <em>125,000</em> users and counting!
+  logo: /static/clients/hellovote.png
+  link: /mission/hellovote
+
 - title: CallPower
   client: Electronic Frontier Foundation
   date: June 2015
@@ -19,12 +26,12 @@
   logo: /static/clients/hnec.png
   link: /mission/libyan-elections
 
-- title: register2.rockthevote.com
-  client: RockTheVote
-  date: Election 2012
-  stat: <em>600,000 voters</em> registered with a new online form, redesigned for usability and quick completion.
-  logo: /static/clients/rockthevote.png
-  link: /mission/rockthevote
+# - title: register2.rockthevote.com
+#   client: RockTheVote
+#   date: Election 2012
+#   stat: <em>600,000 voters</em> registered with a new online form, redesigned for usability and quick completion.
+#   logo: /static/clients/rockthevote.png
+#   link: /mission/rockthevote
 
 # - title: <a href="http://engagementlab.org">Citizen Engagement Lab</a>
 #   role: Director of Technology
