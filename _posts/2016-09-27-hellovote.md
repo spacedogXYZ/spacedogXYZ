@@ -30,7 +30,7 @@ We launched in the week before National Voter Registration Day to great press an
 
 Other celebrities engaged in a bit of a friendly competition spearheaded by Chris Sacca, and included Kristen Bell, Sophia Bush, Grace Helbig, Aasif Mandvi, OK Go, Pearl Jam, Edward Norton, and Hunter Walk. Partner organizations included Bazta Arpaio, Common Cause, Credo, DailyKos, Headcount, Million Voters Project, NextGen, OneArizona, SEIU CA, SURJ, Upworthy, and others. We also helped companies register their employees and visitors, including Genius, Lenny Letter, Private Internet Access, Salesforce, the Shaderoom, Twilio, Walker and Co, and Wordpress.
 
-By Election Day we had over *170,000 users*. We sent personalized and actionable reminder messages to get out the vote, including calendar invitations, local weather forecasts, polling place reminders and directions, and an easy to use issue reporting tool that integrated with ProPublica's [ElectionLand](https://projects.propublica.org/electionland/). We also answered hundreds of individual questions sent to team@hello.vote, and assisted users with finding legal advice when necessary via the Election Protection hotline.
+By Election Day we had over *160,000 users*. We sent personalized and actionable reminder messages to get out the vote, including calendar invitations, local weather forecasts, polling place reminders and directions, and an easy to use issue reporting tool that integrated with ProPublica's [ElectionLand](https://projects.propublica.org/electionland/). We also answered hundreds of individual questions sent to team@hello.vote, and assisted users with finding legal advice when necessary via the Election Protection hotline.
 
 We sent over 4.5 million messages across all our channels, and saw 2,312 #iVoted selfies posted to our Twitter [wall of fame](https://twitter.com/hellovote_bot). User engagement with HelloVote was incredible, and the team's experience building compelling products with a real-world impact was invaluable.
 
@@ -38,4 +38,4 @@ We sent over 4.5 million messages across all our channels, and saw 2,312 #iVoted
 
 The system is built with Node.js and Python, uses Twilio to send SMS messages and Facebook notifications, and is hosted on Heroku. It will be open sourced after the election, pending a legal review.
 
-If you want to build something like HelloVote that guides users through a civic action with engaging and friendly messages, [get in touch!](/blastoff) Spacedog stands at the ready to help fight our next challenges.
+If you want to build something like HelloVote that guides users through a complex civic action with engaging and friendly messages, [get in touch!](/blastoff) Spacedog stands at the ready to help fight our next challenges.
