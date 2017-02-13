@@ -9,12 +9,15 @@ function resetOverlay() {
   $('.fullwidth').css({height: fullHeight});
 
   // setup testimonial slider
+  var testimonialsHeight = fullHeight - (
+    $('section#testimonials ul.wrapper').position().top - 
+    $('section#testimonials').position().top);
   $("#testimonials ul").slidesjs({
     navigation: { active: false, },
     pagination: { active: false },
     play: { active: false, auto: true },
-    width: fullHeight,
-    height: fullWidth,
+    width: fullWidth,
+    height: testimonialsHeight,
   });
 }
 
