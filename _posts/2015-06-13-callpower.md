@@ -37,6 +37,10 @@ The CallPower is designed to be easy to use: just record your message in the bro
 
 You can try a demo at [CallPower.org](http://callpower.org), we will provide a hosted version for a reasonable monthly fee, and the code can be downloaded from [GitHub](https://github.com/spacedogXYZ/call-power).
 
+### 2017 Update ###
+
+Over the last two years, CallPower has grown to include international and multilingual campaigns, congressional district office contact information, and has connected over 300,000 calls. Read more in our [2017 update](/mission/callpower-update).
+
 <div id="slides" class="two-third center">
     <img src="/static/posts/callpower/screenshots/1-dashboard.png">
     <img src="/static/posts/callpower/screenshots/2-create.png">

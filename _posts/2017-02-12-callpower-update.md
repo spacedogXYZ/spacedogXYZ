@@ -11,7 +11,7 @@ client_link: <a href="https://credoaction.com"><img src="/static/clients/credo.p
 
 ### Context ###
 
-After the election, a new wave of civic action has gathered among people who were dismayed by the results and are determined to resist the authoritarian tendancies exhibited by the new regime. Former [Congressional staffers](https://www.indivisibleguide.com) have [shared their experiences](https://twitter.com/editoremilye/status/797243849798074368) about what makes effective constituent contact, and the consensus is that calls work.
+After the election, a new wave of civic action has gathered among people who were dismayed by the results and are determined to resist the authoritarian tendancies exhibited by the new regime. Former [Congressional staffers](https://www.indivisibleguide.com) have [shared their experiences](https://twitter.com/editoremilye/status/797243849798074368) about what makes effective constituent contact, and the consensus is that [calls work](https://www.nytimes.com/2016/11/22/us/politics/heres-why-you-should-call-not-email-your-legislators.html).
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Most members tell me blizzard of angry constituent calls were most impt factor in getting the House to sideline the amdt</p>&mdash; Robert Costa (@costareports) <a href="https://twitter.com/costareports/status/816373917900161024">January 3, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
