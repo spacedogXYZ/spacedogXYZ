@@ -22,13 +22,16 @@ function resetOverlay() {
 }
 
 function scrollIntro() {
-  if ($(window).scrollTop() !== 0) {
-    return false;
-  } else {
+  if ($(window).scrollTop() === 0) {
+    window.log('%cscrollin scrollin scrollin', "color:blue");
     // animate scroll down to logo top
     var logo_top = $('h1#logo').offset().top - 30;
     $(window).scrollTop(0);
-    $('body').delay(1000).animate({scrollTop : logo_top }, 2000, 'swing');
+    if (window._browserMatch == 'firefox') {
+      $('html').delay(1000).animate({scrollTop : logo_top }, 2000, 'swing');
+    } else {
+      $('body').delay(1000).animate({scrollTop : logo_top }, 2000, 'swing');
+    }
   }
 }
 
@@ -63,6 +66,6 @@ $(document).ready(function() {
   }
 
   // delay scrollIntro just momentarily, so window top is set before we scroll
-  window.setTimeout(scrollIntro, 10);
+  window.setTimeout(scrollIntro, 100);
 });
 
