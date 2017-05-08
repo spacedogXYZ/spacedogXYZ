@@ -40,7 +40,7 @@ body_class: index
 {% endfor %}
 
 {% assign latest_post = site.posts.first %}
-<h2 class="bar latest_post"><span>{% if latest_post.category == "mission" %}Mission Report{%else%}Blog Post{%endif%}: <a href="{{latest_post.url}}" class="underline">{{latest_post.title}}</a> {{latest_post.date|date_to_string}}</span></h2>
+<h2 class="bar latest_post medium"><span>{% if latest_post.category == "mission" %}Mission Report{%else%}Blog Post{%endif%}: <a href="{{latest_post.url}}" class="underline">{{latest_post.title}}</a> {{latest_post.date|date_to_string}}</span></h2>
 
 <section id="how-we-work" class="fullwidth">
 <h2>How We Work</h2>
