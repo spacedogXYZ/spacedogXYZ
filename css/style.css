@@ -53,6 +53,7 @@ html {
   font-family: sans-serif;
   /* 1 */
 
+  font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -406,8 +407,14 @@ table {
     padding-right: 15px;
   }
 }
+.medium {
+  font-size: 1.44rem;
+}
 .small {
-  font-size: 0.85em;
+  font-size: 1.2rem;
+}
+.mini {
+  font-size: 0.8999999999999999rem;
 }
 .center {
   display: block;
@@ -442,7 +449,7 @@ table {
 }
 h2 {
   font-family: "Opificio Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2em;
+  font-size: 2.4rem;
 }
 ul {
   list-style-type: none;
@@ -459,6 +466,9 @@ a:hover {
 }
 a.underline {
   text-decoration: underline;
+}
+.content {
+  font-size: 1.2rem;
 }
 .fullwidth {
   display: inline-block;
@@ -479,14 +489,13 @@ a.underline {
 body {
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 20px;
   background: #3A393A;
   color: #ffffff;
   overflow-y: scroll;
   font-family: "Eurostile", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .wrapper {
-  padding: 20px;
+  padding: 20px 40px 40px 40px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -506,7 +515,7 @@ ul {
   margin: 0;
 }
 header {
-  padding: 20px;
+  padding: 20px 40px;
 }
 header h1 {
   font-size: 2.5em;
@@ -635,7 +644,7 @@ body.index section {
 }
 body.index section h2 {
   font-family: "Opificio Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2em;
+  font-size: 2.4rem;
 }
 body.index section h2 a {
   color: white;
@@ -668,7 +677,7 @@ body.index section#splash .overlay.text h1 {
 }
 body.index section#splash .overlay.text .tagline {
   font-family: "Opificio Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.7999999999999998rem;
   margin-left: 11%;
   width: 65%;
 }
@@ -761,7 +770,7 @@ body.index section#how-we-work > ul > li div:after {
 }
 body.index section#how-we-work > ul > li h3 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.7999999999999998rem;
   text-align: center;
 }
 body.index section#how-we-work > ul > li p {
@@ -794,7 +803,7 @@ body.index section#testimonials .testimonial {
   margin-bottom: 20px;
 }
 body.index section#testimonials .quote {
-  font-size: 2em;
+  font-size: 2.4rem;
   font-style: bold;
 }
 body.index section#testimonials .quote:before {
@@ -807,7 +816,7 @@ body.index section#testimonials .quote:after {
 }
 body.index section#testimonials .more {
   display: block;
-  font-size: 1.25em;
+  font-size: 1.44rem;
   margin: 5px auto 20px auto;
 }
 body.index section#testimonials .person .text {
@@ -991,6 +1000,7 @@ body.archive ul.posts li .thumb img:hover {
 }
 body.archive ul.posts li h3 {
   margin: 0;
+  font-size: 1.44rem;
 }
 body.archive ul.posts li h3 a {
   color: #ffffff;
@@ -1100,9 +1110,24 @@ body.mission hr {
     padding-right: 15px;
   }
 }
+body.post p,
+body.mission p,
+body.post ul,
+body.mission ul {
+  font-size: 1.44rem;
+  line-height: 1.25;
+}
 body.post ul,
 body.mission ul {
   list-style-type: circle;
+  clear: both;
+  -webkit-padding-start: 15px;
+}
+@media (min-width: 768px) {
+  body.post ul,
+  body.mission ul {
+    -webkit-padding-start: 30px;
+  }
 }
 body.post .videoWrapper,
 body.mission .videoWrapper {
@@ -1127,6 +1152,14 @@ body.mission .videoWrapper .video-js {
 body.post img,
 body.mission img {
   max-width: 100%;
+}
+@media (min-width: 768px) {
+  body.post blockquote,
+  body.mission blockquote,
+  body.post .twitter-tweet,
+  body.mission .twitter-tweet {
+    margin-left: 15px;
+  }
 }
 body.post .thumb img:hover,
 body.mission .thumb img:hover {
@@ -1223,6 +1256,7 @@ body.mission .next-prev-nav {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   clear: left;
+  font-size: 1.44rem;
 }
 @media (min-width: 768px) {
   body.post .next-prev-nav,
@@ -1289,7 +1323,7 @@ section#blastoff form .right {
   text-align: right;
 }
 section#blastoff form .small {
-  font-size: 0.85em;
+  font-size: 1.2rem;
 }
 @media (max-width: 768px) {
   section#blastoff {
@@ -1357,7 +1391,7 @@ body.about ul.icons > li div img {
 body.about ul#credits {
   margin-left: 10px;
   width: 50%;
-  font-size: 0.85em;
+  font-size: 1.2rem;
 }
 body.about ul#credits li {
   display: inline;

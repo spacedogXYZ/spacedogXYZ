@@ -19,7 +19,8 @@ body.archive {
         img:hover { box-shadow: 5px 5px @orange; }
       }
       h3 { 
-        margin: 0; 
+        margin: 0;
+        font-size: @font-size-medium;
         a { color: @white; }
         a:hover { color: @orange; }
       }
@@ -70,8 +71,19 @@ body.post, body.mission {
     .two-third();
   }
 
+  p, ul {
+    font-size: @font-size-medium;
+    line-height: @line-height-medium;
+  }
+
   ul {
     list-style-type: circle;
+
+    clear: both;
+    -webkit-padding-start: 15px;
+    @media (min-width: @grid-float-breakpoint) {
+      -webkit-padding-start: 30px;
+    }
   }
 
   .videoWrapper {
@@ -91,6 +103,9 @@ body.post, body.mission {
   }
 
   img { max-width: 100%; }
+  blockquote, .twitter-tweet {
+    @media (min-width: @grid-float-breakpoint) { margin-left: 15px; }
+  }
 
   .thumb {
     img:hover { box-shadow: 5px 5px @orange; }
@@ -123,5 +138,8 @@ body.post, body.mission {
     }
   }
 
-  .next-prev-nav { .full(); }
+  .next-prev-nav {
+    .full();
+    font-size: @font-size-medium;
+  }
 }
