@@ -7,6 +7,7 @@ location: Oakland, California
 client_link: <a href="https://www.engineroom.org/"><img src="/static/posts/engineroom/logo-name.png" alt="the engine room logo"></a>
 map: /static/maps/svg/oakland.svg
 image: /static/posts/engineroom/logo.png
+image_class: pad-bottom
 ---
 
 ### Context ###

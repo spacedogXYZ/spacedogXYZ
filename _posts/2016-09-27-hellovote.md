@@ -7,6 +7,7 @@ category: mission
 location: Worcester, Mass
 map: /static/maps/svg/worcester.svg
 image: /static/clients/hellovote.png
+image_class: rect
 client_link: <a href="https://www.hello.vote"><img src="/static/clients/hellovote.png" alt="Hello.Vote"></a>
 ---
 
