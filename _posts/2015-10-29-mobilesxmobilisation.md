@@ -6,6 +6,7 @@ category: blog
 location: Berlin, Germany
 map: /static/maps/svg/berlin.svg
 image: /static/posts/refugeehackathon/moblab-logo.png
+image_class: rect
 client_link: <a href="http://www.mobilisationlab.org/"><img src="/static/posts/refugeehackathon/moblab-logo.png" alt="Mobilisation Lab"></a>
 ---
 
