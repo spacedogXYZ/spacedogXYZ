@@ -73,6 +73,7 @@ module.exports = function(grunt) {
   grunt.registerTask('lessCopy', ['less:development', 'copy:css']);
 
   grunt.registerTask('server', [
+    'copy',
     'connect:server',
     'open:server',
     'watch'

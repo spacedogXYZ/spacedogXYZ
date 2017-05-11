@@ -1,0 +1,5 @@
+Gemfile* linguist-vendored=true
+css/* linguist-vendored=true
+less/preboot.less linguist-vendored=true
+less/normalize.less linguist-vendored=true
+js/jquery.* linguist-vendored=true
