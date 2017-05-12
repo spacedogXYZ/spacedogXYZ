@@ -5,7 +5,7 @@ description: 250,000 calls to Congress in four weeks
 category: mission
 location: San Francisco, California
 map: /static/maps/svg/oakland.svg
-image: /static/posts/callpower/logo-square.jpg
+image: /static/posts/callpower/phone-fire.png
 client_link: <a href="https://credoaction.com"><img src="/static/clients/credo.png" alt="CREDO Action"></a>
 ---
 
