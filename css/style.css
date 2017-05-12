@@ -1067,6 +1067,7 @@ body.post .client img,
 body.mission .client img {
   vertical-align: middle;
   max-width: 300px;
+  margin-top: 5px;
 }
 body.post .map-wrapper,
 body.mission .map-wrapper {
