@@ -6,7 +6,7 @@ category: mission
 location: Oakland, California
 map: /static/maps/svg/oakland.svg
 image: /static/posts/killedbycops/logo-square.png
-client_link: <a href="http://colorofchange.org">ColorOfChange.org</a>
+client_link: <a href="http://colorofchange.org"><img src="/static/clients/colorofchange-old.png" alt="ColorOfChange.org"/></a>
 ---
 
 ### Context ###
