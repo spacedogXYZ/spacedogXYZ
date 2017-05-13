@@ -27,18 +27,19 @@ extra_header: "&raquo; <a href='/mission/'>Mission Report</a>"
   <hr />
 
   <div class="next-prev-nav low-top">
-    {% if page.next.url %}
-      &laquo;&nbsp;<a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">{{ page.next.title }}</a>
+    {% if page.previous.url %}
+      &laquo;&nbsp;
+      <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
       &nbsp;|&nbsp;
     {% endif %}
     
     <a href="/mission/">Mission Reports</a>
-    
-    {% if page.previous.url %}
+
+    {% if page.next.url %}
       &nbsp;|&nbsp;
-      <a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title }}</a>&nbsp;&raquo;
+      <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">{{ page.next.title }}</a>
+      &nbsp;&raquo;
     {% endif %}
-  
     <br />
   </div>
 
