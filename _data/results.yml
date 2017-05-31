@@ -8,7 +8,7 @@
 - title: CallPower
   client: Electronic Frontier Foundation
   date: June 2015
-  stat: Easy-to-use tool for campaigners, connecting over <em>300,000 calls</em> to Congress. Now available for your organization.
+  stat: Easy-to-use tool for campaigners, connecting over <em>500,000 calls</em> to Congress. Now available for your organization.
   logo: /static/clients/eff.png
   link: /mission/callpower
 
@@ -16,7 +16,7 @@
   client: ColorOfChange
   date: October 2014
   stat: <em>8.4 million</em> Twitter users reached with a memorial feed and data visualization showing the crisis of police violence in America.
-  logo: /static/clients/colorofchange.png
+  logo: /static/clients/colorofchange-old.png
   link: /mission/killedbycops
 
 - title: LibyaVotes
