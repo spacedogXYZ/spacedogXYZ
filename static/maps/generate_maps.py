@@ -46,7 +46,7 @@ config = {
     }
 }
 
-GENERATE_WORLD = False
+GENERATE_WORLD = True
 
 if __name__ == "__main__":
     K = Kartograph()
@@ -88,6 +88,8 @@ if __name__ == "__main__":
             for name, loc in m['location'].items():
                 writer.writerow({'name': name, 'lat': loc[0], 'lon': loc[1], 'r': 10})
 
+    # reset country filter
+    config['layers']['country']['filter'] = None
     config['layers']['country']['join'] = {"group-by": "CONTINENT"}
     config['layers']['country']['simplify'] = 2
     config['proj']['id'] = 'naturalearth'

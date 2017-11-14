@@ -6,7 +6,7 @@ Generate SVG maps from Natural Earth data, using [Kartograph](http://kartograph.
 * [Requirements on Mac OS X](http://kartograph.org/docs/kartograph.py/install-macosx.html)
 	* Install [Pre-built GDAL binaries](http://www.kyngchaos.com/software/frameworks)
 	* Fix path to include GDAL
-	`export PYTHONPATH=$PYTHONPATH:/Library/Frameworks/GDAL.framework/Versions/1.9/Python/2.7/site-packages`
+	`export PYTHONPATH=$PYTHONPATH:/Library/Frameworks/GDAL.framework/Versions/2.1/Python/2.7/site-packages`
 	* Download Kartograph requirements, without building GDAL
 	`pip install -r https://raw.github.com/kartograph/kartograph.py/master/requirements-nogdal.txt`
 		
