@@ -18,6 +18,7 @@ MAPS = {
         }
     },
     'worcester': {'iso': ['USA'], 'location': {'Worcester': [42.273127, -71.804324]}, 'proj': 'laea-usa'},
+    'cuba': {'iso': ['CUB'], 'location': {'Havana': [23.139635, -82.351008]}}
 }
 
 config = {
