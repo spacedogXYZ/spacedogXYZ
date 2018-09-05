@@ -7,7 +7,20 @@ location: Ramallah, PS
 map: /static/maps/svg/israel-palestine.svg
 image: /static/posts/medialab/qalandia-checkpoint.jpg
 client_link: <a href="http://civic.mit.edu/"><img src="/static/posts/medialab/civic-logo-bg.png" alt="MIT Center for Civic Media"></a>
-
+top_script:  <link rel="stylesheet" href="/css/slides.css" />
+end_script: |
+    <script src="/js/jquery.slides.js"></script>
+    <script>
+    $(function(){
+      $("#slides").slidesjs({
+        navigation: {
+            active: false,
+        },
+        width: 1048,
+        height: 800
+      });
+    });
+    </script>
 ---
 
 ### Context ###
@@ -27,5 +40,16 @@ I heard again and again from Israelis that the reality of the occupation isn’t
 ### Results ###
 
 I built GroundTruth.Media.MIT.edu, a testbed for mapping the footprints of Israeli occupation of Palestinian territory. It provides data on the checkpoints, the path of the separation wall and the extent and growth of settlements, graciously given by B'Tselem and Peace Now. It allows point-to-point directions with routes taking movement restrictions into account, a search by settlement name and age, and the information on the construction status of the barrier. It used Django and PostGIS to hold the geographic data, pgrouting to provide directions, and OpenLayers to display the map.
+
+<div id="slides" class="two-third center">
+    <img src="/static/posts/groundtruth/1-settlement-map.png">
+    <img src="/static/posts/groundtruth/2-settlement-info.png">
+    <img src="/static/posts/groundtruth/3-settlement-legal.png">
+    <img src="/static/posts/groundtruth/4-checkpoint-map.png">
+    <img src="/static/posts/groundtruth/5-routing-experiment.png">
+
+    <a href="#" class="slidesjs-previous slidesjs-navigation inline left">&larr; Previous</a>
+    <a href="#" class="slidesjs-next slidesjs-navigation inline right">Next &rarr;</a>
+</div>
 
 The site is no longer online, but the ideas continue in Americans for Peace Now [Facts on the Ground](http://archive.peacenow.org/map.php) Map.
