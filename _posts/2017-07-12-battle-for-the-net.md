@@ -6,7 +6,6 @@ category: mission
 location: San Francisco, California
 map: /static/maps/svg/oakland.svg
 image: /static/posts/battleforthenet/keep-the-internet-weird.jpg
-image_class: rect
 client_link: <a href="https://www.battleforthenet.com">Fight for the Future</a>
 ---
 
