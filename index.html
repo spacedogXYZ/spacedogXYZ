@@ -94,8 +94,8 @@ body_class: index
       <div class="name">{% if r.link%}<a href="{{r.link}}">{{r.title}}</a>{%else%}{{r.title}}{%endif%}: {% if r.client %}{{r.client}}{% else %}{{r.role}}{%endif%}, {{r.date}}</div>
       <div class="stat">{{r.stat}} {% if r.link%}<span class="readmore"><a href="{{r.link}}">&rarr;</a></span>{%endif%}</div>
     </div>
-    <div class="logo">{% if r.link%}<a href="{{r.link}}"><img src="{{r.logo}}" alt="{{r.client}}"/></a>
-      {%else%}<img src="{{r.logo}}" alt="{{r.client}}"/>{%endif%}</div>
+    <div class="logo">{% if r.link%}<a href="{{r.link}}"><img src="{{r.logo}}" alt="{{r.client}}" class="{{r.logo_class}}"/></a>
+      {%else%}<img src="{{r.logo}}" alt="{{r.client}}" class="{{r.logo_class}}"/>{%endif%}</div>
   </div></li>
   {% endfor %}
 </ul>

@@ -904,6 +904,9 @@ body.index section#results ul .logo img {
   float: left;
   max-width: 150px;
 }
+body.index section#results ul .logo img.pullup-20 {
+  margin-bottom: -20px;
+}
 body.index section#team {
   background-color: #35353b;
   background-image: url('/static/splash/display-purple.png');

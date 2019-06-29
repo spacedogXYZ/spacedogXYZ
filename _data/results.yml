@@ -1,7 +1,15 @@
+- title: CrushTheMidterms
+  client: Purpose
+  date: Election 2018
+  stat: Get a personalized plan for the election. Over <em>150,000 volunteer hours</em> per month, 5-10 mins of average engagement, and a nearly <em>50% conversion</em> rate.
+  logo: /static/posts/crushthemidterms/ctm-logo-light.png
+  logo_class: pullup-20
+  link: /mission/crush-the-midterms
+
 - title: HelloVote
   client: FightForTheFuture
   date: Election 2016
-  stat: Register to vote with just 10 text messages. <em>160,000</em> users and a 65% completion rate!
+  stat: Register to vote with just 10 text messages. <em>160,000 users</em> and a <em>65% completion</em> rate!
   logo: /static/clients/hellovote.png
   link: /mission/hellovote
 
@@ -12,12 +20,12 @@
   logo: /static/clients/eff.png
   link: /mission/callpower
 
-- title: KilledByCops
-  client: ColorOfChange
-  date: October 2014
-  stat: <em>8.4 million</em> Twitter users reached with a memorial feed and data visualization showing the crisis of police violence in America.
-  logo: /static/clients/colorofchange-old.png
-  link: /mission/killedbycops
+# - title: KilledByCops
+#   client: ColorOfChange
+#   date: October 2014
+#   stat: <em>8.4 million</em> Twitter users reached with a memorial feed and data visualization showing the crisis of police violence in America.
+#   logo: /static/clients/colorofchange-old.png
+#   link: /mission/killedbycops
 
 - title: LibyaVotes
   client: Reboot.org
