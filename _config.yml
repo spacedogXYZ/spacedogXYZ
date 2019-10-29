@@ -5,7 +5,7 @@ collections:
   testimonials:
     output: false
 
-gems:
+plugins:
   - jekyll-sitemap
 
 exclude: ['node_modules']
