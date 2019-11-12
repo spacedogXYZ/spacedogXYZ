@@ -8,4 +8,4 @@ collections:
 plugins:
   - jekyll-sitemap
 
-exclude: ['node_modules']
+exclude: ['node_modules', 'vendor']
