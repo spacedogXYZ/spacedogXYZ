@@ -11,7 +11,7 @@ client_link: <a href="https://theactionpac.com">Action PAC</a>
 
 Rodney Reed was sentenced to be executed for a heinous crime he did not commit. The Action PAC needed a call tool to connect their 3 million petition signers with decision makers in the State of Texas, and make it as easy as possible to call many different targets in a single session.
 
-We set up [CallPower](https://callpower.org) with four different campaigns to the Governor, Lieutenant Governor, Board of Paroles and Pardons and legislative offices. Callers were connected continuously, with recorded audio prompts between calls to remind and reinforce advocacy points. Phone numbers an call in forms were set up on [FreeRodneyReed.com](https://www.freerodneyreed.com), and distributed by social media and email.
+We set up [CallPower](https://callpower.org) with four different campaigns to the Governor, Lieutenant Governor, Board of Paroles and Pardons and legislative offices. Callers were connected continuously, with recorded audio prompts between calls to remind and reinforce advocacy points. Phone numbers and call in forms were set up on [FreeRodneyReed.com](https://www.freerodneyreed.com), and distributed by social media and email.
 
 Many users posted about the experience of calling on Instagram, and Shaun King collected them for his story on November 11th.
 <iframe src="https://player.vimeo.com/video/372451899" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
