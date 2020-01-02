@@ -63,6 +63,8 @@ $(document).ready(function() {
   var last_date = new Date($('h2.availability a').first().data('date'));
   if (new Date() > last_date) {
     $('h2.availability a').text('Booking now for new missions');
+  } else {
+    $('h2.availability a').attr('href', '#');
   }
 
   // delay scrollIntro just momentarily, so window top is set before we scroll
