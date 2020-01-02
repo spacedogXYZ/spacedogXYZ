@@ -2,5 +2,7 @@ _site
 node_modules
 config.codekit
 static/maps/natural_earth
-tmp.csv
+static/maps/.venv
+static/maps/tmp.csv
 vendor/bundle
+
