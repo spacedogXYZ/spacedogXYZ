@@ -5,7 +5,7 @@ description: 800,000 Calls for Justice
 category: mission
 location: Truckee, California
 map: /static/maps/svg/truckee.svg
-image: /static/clients/actionpac.png
+image: /static/clients/grassroots-law.png
 client_link: <a href="https://theactionpac.com">Action PAC</a>
 ---
 
