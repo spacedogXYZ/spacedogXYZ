@@ -53,9 +53,9 @@ if __name__ == "__main__":
     K = Kartograph()
     css = open('map.css').read()
 
-    # generate individual country maps
+    # generate individual country map)s
     for (country, m) in MAPS.items():
-        print "starting", country, m
+        print("starting", country, m)
         config['layers']['country']['filter'] = (lambda r: r['ISO_A3'] in m['iso'])
         if 'proj' in m:
             config['proj']['id'] = m['proj']
@@ -71,15 +71,15 @@ if __name__ == "__main__":
 
         fn = 'svg/%s.svg' % country
         K.generate(config, outfile=fn, stylesheet=css)
-        print "generated", fn
+        print("generated", fn)
 
     if not GENERATE_WORLD:
-        print "done"
+        print("done")
         sys.exit(0)
 
     # now generate world map
     country_list = []
-    print "starting world"
+    print("starting world")
     with open('tmp.csv', 'wb') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=['name', 'lat', 'lon', 'r'])
         writer.writeheader()
@@ -98,6 +98,6 @@ if __name__ == "__main__":
 
     fn = 'svg/missions.svg'
     K.generate(config, outfile=fn, stylesheet=css)
-    print "generated", fn
+    print("generated", fn)
 
-    print "done"
+    print("done")

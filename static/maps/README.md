@@ -11,7 +11,7 @@ Generate SVG maps from Natural Earth data, using [Kartograph](http://kartograph.
 	`pip install -r https://raw.github.com/kartograph/kartograph.py/master/requirements-nogdal.txt`
 		
 * Install Kartograph
-	* `pip install https://github.com/kartograph/kartograph.py/zipball/master`
+	* `pip install -e git+git@github.com:PythonCharmers/kartograph.py.git#egg=kartograph`
 	
 * Download Natural Earth administrative vectors
 	* `wget http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries_lakes.zip`
