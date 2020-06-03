@@ -10,11 +10,10 @@
   org: Presente.org
   more: Works with empathy and care to help us make change.
 
-- name: Debra Cleaver
-  title: Founder
-  org: Vote.org
-  quote: Will be in the trenches with you
-  more: Cares more about users and quality product than almost any other engineer I've met.
+- name: Jin Ding
+  org: Social Practice
+  quote: Critical to our work on injustice. 
+  more: Thank you for building great tools and for building them to handle organizing at scale.
 
 - name: Paul Ferris
   title: Campaign Director
@@ -39,3 +38,9 @@
   org: Fight for the Future
   quote: Puts the pedal to the metal
   more: Thank you for being brave, pushing hard, and charting new territories with us.
+
+- name: Debra Cleaver
+  title: Founder
+  org: Vote.org
+  quote: Will be in the trenches with you
+  more: Cares more about users and quality product than almost any other engineer I've met.
