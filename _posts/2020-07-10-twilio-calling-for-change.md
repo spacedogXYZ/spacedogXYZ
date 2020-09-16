@@ -5,7 +5,8 @@ description: How to design advocacy campaigns that scale and win
 category: blog
 location: San Francisco, CA
 map: /static/maps/svg/oakland.svg
-image: /static/posts/twilio/twilio-logo.svg
+image: /static/posts/twilio/twilio-org.png
+image_class: rect
 ---
 
 The spring of 2020 has been a wake-up call.
