@@ -1,7 +1,7 @@
 ---
 layout: mission
 title: Crush the Midterms
-description: Use your vote, time, donation and network to Save Democracy
+description: Use your vote, time, donation and network to save democracy
 category: mission
 location: San Francisco, California
 map: /static/maps/svg/oakland.svg

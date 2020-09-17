@@ -1,7 +1,7 @@
 ---
 layout: mission
 title: CallPower Collaboration
-description: Working in the Open
+description: Working in the open
 category: blog
 location: Oakland, California
 map: /static/maps/svg/oakland.svg

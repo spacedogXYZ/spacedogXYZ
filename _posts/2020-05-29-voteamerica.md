@@ -1,7 +1,7 @@
 ---
 layout: mission
 title: VoteAmerica
-description: Designing Products to Save Democracy
+description: Designing products to save democracy
 category: mission
 location: Oakland, California
 map: /static/maps/svg/oakland.svg

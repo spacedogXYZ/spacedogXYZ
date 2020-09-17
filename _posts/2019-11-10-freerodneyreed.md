@@ -1,7 +1,7 @@
 ---
 layout: mission
 title: Free Rodney Reed
-description: 100,000 Calls to Stop an Execution
+description: 100,000 calls to stop an execution
 category: mission
 location: Oakland, California
 map: /static/maps/svg/oakland.svg

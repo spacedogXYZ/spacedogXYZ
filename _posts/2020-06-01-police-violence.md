@@ -1,7 +1,7 @@
 ---
 layout: mission
 title: Call to End Police Violence
-description: 800,000 Calls for Justice
+description: 800,000 calls for justice
 category: mission
 location: Truckee, California
 map: /static/maps/svg/truckee.svg

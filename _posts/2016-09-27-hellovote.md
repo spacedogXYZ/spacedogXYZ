@@ -1,7 +1,7 @@
 ---
 layout: mission
 title: HelloVote
-description: Register to Vote in 10 texts or less
+description: Register to vote in 10 texts or less
 date_string: Election 2016
 category: mission
 location: Worcester, Mass

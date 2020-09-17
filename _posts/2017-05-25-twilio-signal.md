@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Twilio Signal
-description: Coding for a Cause - SMS Voter Registration
+description: Coding for a cause - SMS voter registration
 category: blog
 location: San Francisco, California
 map: /static/maps/svg/oakland.svg

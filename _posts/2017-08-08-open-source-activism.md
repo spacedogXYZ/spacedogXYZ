@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Open Source Activism
-description: Technology should reflect our Values
+description: Technology should reflect our values
 category: blog
 location: Oakland, California
 map: /static/maps/svg/oakland.svg

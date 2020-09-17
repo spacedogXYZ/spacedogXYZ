@@ -1,7 +1,7 @@
 ---
 layout: mission
 title: TextPower
-description: Interactive Messaging for Campaigns and Organizations
+description: Interactive messaging for campaigns and organizations
 category: mission
 location: Oakland, California
 map: /static/maps/svg/oakland.svg

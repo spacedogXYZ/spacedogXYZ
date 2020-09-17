@@ -1,7 +1,7 @@
 ---
 layout: mission
 title: WeAreTwitter
-description: Pushing for Democratic Platform Ownership
+description: Pushing for democratic platform ownership
 category: mission
 location: Oakland, California
 map: /static/maps/svg/oakland.svg
