@@ -6,6 +6,7 @@ category: mission
 location: Truckee, California
 map: /static/maps/svg/truckee.svg
 image: /static/clients/grassroots-law.png
+image_class: rect
 client_link: <a href="https://www.grassrootslaw.org">Grassroots Law Project</a> &amp; <a href="https://theactionpac.com">Action PAC</a>
 ---
 

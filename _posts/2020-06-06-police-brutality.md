@@ -6,6 +6,7 @@ category: mission
 location: Truckee, California
 map: /static/maps/svg/truckee.svg
 image: /static/posts/policebrutality/logo.png
+image_class: rect
 ---
 
 In the summer of 2020, hundreds of thousands of Americans exercised their first amendment rights to assemble and petition the government for a redress of grievances, and many were met with violence. This should not shock observers of our nation's history of anti-black racism, but for many white protestors and journalists this may have been a first experience receiving violent treatment at the hands of the police officers sworn to protect and serve the public.
