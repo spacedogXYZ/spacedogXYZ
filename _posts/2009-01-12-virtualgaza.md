@@ -7,9 +7,9 @@ location: Cambridge, MA
 map: /static/maps/svg/mit.svg
 image: /static/posts/medialab/vg-small.png
 client_link: <a href="http://civic.mit.edu/"><img src="/static/posts/medialab/civic-logo-bg.png" alt="MIT Center for Civic Media"></a>
-top_script:  <link href="http://vjs.zencdn.net/5.0.2/video-js.css" rel="stylesheet">
+top_script:  <link href="https://vjs.zencdn.net/5.0.2/video-js.css" rel="stylesheet">
 end_script: |
-    <script src="http://vjs.zencdn.net/5.0.2/video.js"></script>
+    <script src="https://vjs.zencdn.net/5.0.2/video.js"></script>
 ---
 
 ### Context ###
