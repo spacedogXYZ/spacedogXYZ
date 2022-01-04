@@ -35,7 +35,7 @@ body_class: index
 ---
 {% for availability in site.data.schedule %}
 {% if forloop.last %}
-<h2 class="bar availability"><span><a href="/blastoff/" data-date="{{availability.date}}">{{availability.headline}}</a></span></h2>
+<h2 class="bar availability"><span><a href="{{availability.link|default:'/blastoff/'}}" data-date="{{availability.date}}" data-booked="{{availability.booked}}">{{availability.headline}}</a></span></h2>
 {% endif %}
 {% endfor %}
 
