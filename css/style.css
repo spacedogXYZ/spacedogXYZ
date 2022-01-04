@@ -903,6 +903,7 @@ body.index section#results ul .logo {
 body.index section#results ul .logo img {
   float: left;
   max-width: 150px;
+  max-height: 100px;
 }
 body.index section#results ul .logo img.pullup-20 {
   margin-bottom: -20px;
