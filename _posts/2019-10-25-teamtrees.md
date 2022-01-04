@@ -13,4 +13,4 @@ When MrBeast passed 20 million followers on YouTube, the Internet challenged him
 
 We were brought in as a technology consultant to help the site withstand the massive traffic influx on launch day, optimize the social share experience, and lay the groundwork for ongoing organizing with best-in-class tools and tactics. We are proud to stand with Team Trees to prove the power of the internet for good, and to head into 2020 on a positive note for the world.
 
-<img src="/static/posts/teamtrees-earth-astronaut.gif">
+<img src="/static/posts/teamteams/teamtrees-earth-astronaut.gif">

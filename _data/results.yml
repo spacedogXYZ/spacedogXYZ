@@ -1,15 +1,22 @@
+- title: TeamSeas and TeamTrees
+  client: Fitz Partners
+  date: 2020 and 2021
+  stat: Harnessing the power of internet creator communities for good, raised <em>$50 million</em> combined for the world's oceans and forests.
+  logo: /static/posts/teamteams/teamseas-wide.png
+  logo_class: pullup-20
+  link: /mission/teamseas
+
 - title: CrushTheMidterms
   client: Purpose
   date: Election 2018
   stat: Get a personalized plan for the election. Over <em>150,000 volunteer hours</em> per month, 5-10 mins of average engagement, and a nearly <em>50% conversion</em> rate.
   logo: /static/posts/crushthemidterms/ctm-logo-light.png
-  logo_class: pullup-20
   link: /mission/crush-the-midterms
 
 - title: HelloVote
   client: FightForTheFuture
   date: Election 2016
-  stat: Register to vote with just 10 text messages. <em>160,000 users</em> and a <em>65% completion</em> rate!
+  stat: Register to vote with just 10 text messages. <em>160,000 users</em> at a <em>65% completion</em> rate!
   logo: /static/clients/hellovote.png
   link: /mission/hellovote
 
