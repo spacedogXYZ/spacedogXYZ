@@ -10,10 +10,11 @@ end_script: |
 <section id="blastoff" class="displayBackground fullwidth">
 <div class="wrapper">
 
-<h2>Ready to begin your journey?</h2>
+<h2>Spacedog has de-orbited</h2>
 
 <form name="blastoff" method="POST" data-netlify="true">
-    <h3>Fill out this form to get started</h3>
+  <fieldset disabled style="border:none">
+    <h3>We are no longer accepting new clients</h3>
     <input type="hidden" name="subject" value="New Project Submission" />
 
     <label class="third">Name
@@ -62,11 +63,12 @@ end_script: |
     <input type="text" name="_gotcha" style="display:none" />
     <div class="full">
       <button type="submit" class="center-block">Blastoff!</button>
-      <div class="small">Not ready to fly just yet?
+      <div class="small"  style="display:none">Not ready to fly just yet?
         <a href="mailto:josh@spacedog.xyz">Send an email</a> or
         <a href="http://spacedog.youcanbook.me">book a window</a> to chat with Josh at mission control.
       </div>
     </div>
+  </fieldset>
 </form>
 
 <div id="success" style="display:none">
