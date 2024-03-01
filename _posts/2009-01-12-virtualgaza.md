@@ -7,9 +7,8 @@ location: Cambridge, MA
 map: /static/maps/svg/mit.svg
 image: /static/posts/medialab/vg-small.png
 client_link: <a href="http://civic.mit.edu/"><img src="/static/posts/medialab/civic-logo-bg.png" alt="MIT Center for Civic Media"></a>
-top_script:  <link href="https://vjs.zencdn.net/5.0.2/video-js.css" rel="stylesheet">
 end_script: |
-    <script src="https://vjs.zencdn.net/5.0.2/video.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
 ---
 
 ### Context ###
@@ -32,7 +31,7 @@ The following summer, I applied for permission to travel to Gaza and continue wo
 
 The full site is unfortunately no longer online, but an archived video tour is available:
 <div class="videoWrapper two-third">
-<div style="padding:73.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/918444333?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VirtualGaza Tour"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:73.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/918444333?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VirtualGaza Tour"></iframe></div>
 </div>
 
 Update 2015: The concept continues in work done by [Amnesty International](http://www.forensic-architecture.org) and [Forensic Architecture](http://www.forensic-architecture.org) with their [Gaza Platform](http://gazaplatform.amnesty.org).
