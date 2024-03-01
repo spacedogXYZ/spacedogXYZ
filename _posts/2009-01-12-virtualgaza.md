@@ -32,7 +32,7 @@ The following summer, I applied for permission to travel to Gaza and continue wo
 
 The full site is unfortunately no longer online, but an archived video tour is available:
 <div class="videoWrapper two-third">
-<video id="vg-video" class="video-js vjs-default-skin vjs-big-play-centered" controls width="490" height="360" data-setup="{}" poster="https://photos-1.dropbox.com/t/2/AAC60FvLXHh5bIt7b5u0hFOO2i5LxzXiSKep8Jq7woLlpA/12/23928/jpeg/1024x768/2/1446930000/0/2/video-tour-30sec.mov/CPi6ASABIAIgAyAEIAUgBygBKAIoBw/1wAxIUVXTAk1GxzFdN8hBIbupTm6pKN1675tfgEwSl4%2C4dEJcTAG32SoCjeUbUrmkUDu8_yGI0I74RQly8CFfzU?size=1280x960&amp;size_mode=2" src="https://www.dropbox.com/sm/hls_playlist/s/ush98pw21hmhfa1/video-tour-30sec.mov?secure_hash="><source src="https://www.dropbox.com/sm/hls_playlist/s/ush98pw21hmhfa1/video-tour-30sec.mov?secure_hash=" type="application/vnd.apple.mpegurl"></video>
+<div style="padding:73.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/918444333?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VirtualGaza Tour"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 
 Update 2015: The concept continues in work done by [Amnesty International](http://www.forensic-architecture.org) and [Forensic Architecture](http://www.forensic-architecture.org) with their [Gaza Platform](http://gazaplatform.amnesty.org).
