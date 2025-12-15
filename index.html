@@ -126,7 +126,7 @@ body_class: index
     <img src="{{m.image|default:'/static/images/blank.png'}}" alt="{{m.name}}, {{m.title}}" />
     <div class="about">
       <span class="name">{{m.name}}</span>, <span class="title">{{m.title}}</span>
-      {% if m.twitter%}<span class="follow"><a href="https://twitter.com/{{m.twitter}}" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">@{{m.twitter}}</a></span>{%endif%}
+      {% if m.bsky%}<span class="follow"><a href="https://bsky.app/profile/{{m.bsky}}" class="bsky-follow-button">@{{m.bsky}}</a></span>{%endif%}
       <div class="bio">{{m.bio}}</div>
     </div>
   </li>
