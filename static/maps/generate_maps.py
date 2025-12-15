@@ -18,6 +18,8 @@ MAPS = {
         }
     },
     'worcester': {'iso': ['USA'], 'location': {'Worcester': [42.273127, -71.804324]}, 'proj': 'laea-usa'},
+    'dc': {'iso': ['USA'], 'location': {'District of Columbia': [38.9072, -77.0369]}, 'proj': 'laea-usa'},
+    'denver': {'iso': ['USA'], 'location': {'Denver': [39.7392, -104.9903]}, 'proj': 'laea-usa'},
     'cuba': {'iso': ['CUB'], 'location': {'Havana': [23.139635, -82.351008]}}
 }
 
